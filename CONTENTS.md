@@ -10,4 +10,4 @@
 | `schemas/` | Fixture and replay artifact schemas |
 | `requirements.txt` | Pinned analysis environment |
 | `data/results/` | Compact baseline and extension summaries |
-| Hugging Face archive | Signed fixtures, RPC captures, and Core template outputs; see `REPRODUCIBILITY.md` |
+| Hugging Face bucket | Mirror of this compact release; full fixture archive is not included |
