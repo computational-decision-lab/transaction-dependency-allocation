@@ -1,0 +1,3208 @@
+{
+  "status": "passed",
+  "fixtures": 800,
+  "scipy_version": "1.15.3",
+  "method": "HiGHS binary MILP, zero relative gap; independent of subset enumeration",
+  "cases": [
+    {
+      "fixture": "cap12_seed000_chain.json",
+      "exact_fee_sat": 285968
+    },
+    {
+      "fixture": "cap12_seed000_cpfp.json",
+      "exact_fee_sat": 285968
+    },
+    {
+      "fixture": "cap12_seed000_independent.json",
+      "exact_fee_sat": 285968
+    },
+    {
+      "fixture": "cap12_seed000_mixed.json",
+      "exact_fee_sat": 285968
+    },
+    {
+      "fixture": "cap12_seed000_star.json",
+      "exact_fee_sat": 285968
+    },
+    {
+      "fixture": "cap12_seed001_chain.json",
+      "exact_fee_sat": 263148
+    },
+    {
+      "fixture": "cap12_seed001_cpfp.json",
+      "exact_fee_sat": 263148
+    },
+    {
+      "fixture": "cap12_seed001_independent.json",
+      "exact_fee_sat": 263148
+    },
+    {
+      "fixture": "cap12_seed001_mixed.json",
+      "exact_fee_sat": 263148
+    },
+    {
+      "fixture": "cap12_seed001_star.json",
+      "exact_fee_sat": 263148
+    },
+    {
+      "fixture": "cap12_seed002_chain.json",
+      "exact_fee_sat": 252716
+    },
+    {
+      "fixture": "cap12_seed002_cpfp.json",
+      "exact_fee_sat": 252716
+    },
+    {
+      "fixture": "cap12_seed002_independent.json",
+      "exact_fee_sat": 252716
+    },
+    {
+      "fixture": "cap12_seed002_mixed.json",
+      "exact_fee_sat": 252716
+    },
+    {
+      "fixture": "cap12_seed002_star.json",
+      "exact_fee_sat": 252716
+    },
+    {
+      "fixture": "cap12_seed003_chain.json",
+      "exact_fee_sat": 239024
+    },
+    {
+      "fixture": "cap12_seed003_cpfp.json",
+      "exact_fee_sat": 239024
+    },
+    {
+      "fixture": "cap12_seed003_independent.json",
+      "exact_fee_sat": 239024
+    },
+    {
+      "fixture": "cap12_seed003_mixed.json",
+      "exact_fee_sat": 239024
+    },
+    {
+      "fixture": "cap12_seed003_star.json",
+      "exact_fee_sat": 239024
+    },
+    {
+      "fixture": "cap12_seed004_chain.json",
+      "exact_fee_sat": 183278
+    },
+    {
+      "fixture": "cap12_seed004_cpfp.json",
+      "exact_fee_sat": 183278
+    },
+    {
+      "fixture": "cap12_seed004_independent.json",
+      "exact_fee_sat": 183278
+    },
+    {
+      "fixture": "cap12_seed004_mixed.json",
+      "exact_fee_sat": 183278
+    },
+    {
+      "fixture": "cap12_seed004_star.json",
+      "exact_fee_sat": 183278
+    },
+    {
+      "fixture": "cap12_seed005_chain.json",
+      "exact_fee_sat": 310092
+    },
+    {
+      "fixture": "cap12_seed005_cpfp.json",
+      "exact_fee_sat": 310092
+    },
+    {
+      "fixture": "cap12_seed005_independent.json",
+      "exact_fee_sat": 310092
+    },
+    {
+      "fixture": "cap12_seed005_mixed.json",
+      "exact_fee_sat": 310092
+    },
+    {
+      "fixture": "cap12_seed005_star.json",
+      "exact_fee_sat": 310092
+    },
+    {
+      "fixture": "cap12_seed006_chain.json",
+      "exact_fee_sat": 220116
+    },
+    {
+      "fixture": "cap12_seed006_cpfp.json",
+      "exact_fee_sat": 220116
+    },
+    {
+      "fixture": "cap12_seed006_independent.json",
+      "exact_fee_sat": 220116
+    },
+    {
+      "fixture": "cap12_seed006_mixed.json",
+      "exact_fee_sat": 220116
+    },
+    {
+      "fixture": "cap12_seed006_star.json",
+      "exact_fee_sat": 220116
+    },
+    {
+      "fixture": "cap12_seed007_chain.json",
+      "exact_fee_sat": 211314
+    },
+    {
+      "fixture": "cap12_seed007_cpfp.json",
+      "exact_fee_sat": 211314
+    },
+    {
+      "fixture": "cap12_seed007_independent.json",
+      "exact_fee_sat": 211314
+    },
+    {
+      "fixture": "cap12_seed007_mixed.json",
+      "exact_fee_sat": 211314
+    },
+    {
+      "fixture": "cap12_seed007_star.json",
+      "exact_fee_sat": 211314
+    },
+    {
+      "fixture": "cap12_seed008_chain.json",
+      "exact_fee_sat": 194688
+    },
+    {
+      "fixture": "cap12_seed008_cpfp.json",
+      "exact_fee_sat": 194688
+    },
+    {
+      "fixture": "cap12_seed008_independent.json",
+      "exact_fee_sat": 194688
+    },
+    {
+      "fixture": "cap12_seed008_mixed.json",
+      "exact_fee_sat": 194688
+    },
+    {
+      "fixture": "cap12_seed008_star.json",
+      "exact_fee_sat": 194688
+    },
+    {
+      "fixture": "cap12_seed009_chain.json",
+      "exact_fee_sat": 237394
+    },
+    {
+      "fixture": "cap12_seed009_cpfp.json",
+      "exact_fee_sat": 237394
+    },
+    {
+      "fixture": "cap12_seed009_independent.json",
+      "exact_fee_sat": 237394
+    },
+    {
+      "fixture": "cap12_seed009_mixed.json",
+      "exact_fee_sat": 237394
+    },
+    {
+      "fixture": "cap12_seed009_star.json",
+      "exact_fee_sat": 237394
+    },
+    {
+      "fixture": "cap12_seed010_chain.json",
+      "exact_fee_sat": 254672
+    },
+    {
+      "fixture": "cap12_seed010_cpfp.json",
+      "exact_fee_sat": 254672
+    },
+    {
+      "fixture": "cap12_seed010_independent.json",
+      "exact_fee_sat": 254672
+    },
+    {
+      "fixture": "cap12_seed010_mixed.json",
+      "exact_fee_sat": 254672
+    },
+    {
+      "fixture": "cap12_seed010_star.json",
+      "exact_fee_sat": 254672
+    },
+    {
+      "fixture": "cap12_seed011_chain.json",
+      "exact_fee_sat": 305528
+    },
+    {
+      "fixture": "cap12_seed011_cpfp.json",
+      "exact_fee_sat": 305528
+    },
+    {
+      "fixture": "cap12_seed011_independent.json",
+      "exact_fee_sat": 305528
+    },
+    {
+      "fixture": "cap12_seed011_mixed.json",
+      "exact_fee_sat": 305528
+    },
+    {
+      "fixture": "cap12_seed011_star.json",
+      "exact_fee_sat": 305528
+    },
+    {
+      "fixture": "cap12_seed012_chain.json",
+      "exact_fee_sat": 222724
+    },
+    {
+      "fixture": "cap12_seed012_cpfp.json",
+      "exact_fee_sat": 222724
+    },
+    {
+      "fixture": "cap12_seed012_independent.json",
+      "exact_fee_sat": 222724
+    },
+    {
+      "fixture": "cap12_seed012_mixed.json",
+      "exact_fee_sat": 222724
+    },
+    {
+      "fixture": "cap12_seed012_star.json",
+      "exact_fee_sat": 222724
+    },
+    {
+      "fixture": "cap12_seed013_chain.json",
+      "exact_fee_sat": 312374
+    },
+    {
+      "fixture": "cap12_seed013_cpfp.json",
+      "exact_fee_sat": 312374
+    },
+    {
+      "fixture": "cap12_seed013_independent.json",
+      "exact_fee_sat": 312374
+    },
+    {
+      "fixture": "cap12_seed013_mixed.json",
+      "exact_fee_sat": 312374
+    },
+    {
+      "fixture": "cap12_seed013_star.json",
+      "exact_fee_sat": 312374
+    },
+    {
+      "fixture": "cap12_seed014_chain.json",
+      "exact_fee_sat": 277492
+    },
+    {
+      "fixture": "cap12_seed014_cpfp.json",
+      "exact_fee_sat": 277492
+    },
+    {
+      "fixture": "cap12_seed014_independent.json",
+      "exact_fee_sat": 277492
+    },
+    {
+      "fixture": "cap12_seed014_mixed.json",
+      "exact_fee_sat": 277492
+    },
+    {
+      "fixture": "cap12_seed014_star.json",
+      "exact_fee_sat": 277492
+    },
+    {
+      "fixture": "cap12_seed015_chain.json",
+      "exact_fee_sat": 244566
+    },
+    {
+      "fixture": "cap12_seed015_cpfp.json",
+      "exact_fee_sat": 244566
+    },
+    {
+      "fixture": "cap12_seed015_independent.json",
+      "exact_fee_sat": 244566
+    },
+    {
+      "fixture": "cap12_seed015_mixed.json",
+      "exact_fee_sat": 244566
+    },
+    {
+      "fixture": "cap12_seed015_star.json",
+      "exact_fee_sat": 244566
+    },
+    {
+      "fixture": "cap12_seed016_chain.json",
+      "exact_fee_sat": 250760
+    },
+    {
+      "fixture": "cap12_seed016_cpfp.json",
+      "exact_fee_sat": 250760
+    },
+    {
+      "fixture": "cap12_seed016_independent.json",
+      "exact_fee_sat": 250760
+    },
+    {
+      "fixture": "cap12_seed016_mixed.json",
+      "exact_fee_sat": 250760
+    },
+    {
+      "fixture": "cap12_seed016_star.json",
+      "exact_fee_sat": 250760
+    },
+    {
+      "fixture": "cap12_seed017_chain.json",
+      "exact_fee_sat": 267386
+    },
+    {
+      "fixture": "cap12_seed017_cpfp.json",
+      "exact_fee_sat": 267386
+    },
+    {
+      "fixture": "cap12_seed017_independent.json",
+      "exact_fee_sat": 267386
+    },
+    {
+      "fixture": "cap12_seed017_mixed.json",
+      "exact_fee_sat": 267386
+    },
+    {
+      "fixture": "cap12_seed017_star.json",
+      "exact_fee_sat": 267386
+    },
+    {
+      "fixture": "cap12_seed018_chain.json",
+      "exact_fee_sat": 241306
+    },
+    {
+      "fixture": "cap12_seed018_cpfp.json",
+      "exact_fee_sat": 241306
+    },
+    {
+      "fixture": "cap12_seed018_independent.json",
+      "exact_fee_sat": 241306
+    },
+    {
+      "fixture": "cap12_seed018_mixed.json",
+      "exact_fee_sat": 241306
+    },
+    {
+      "fixture": "cap12_seed018_star.json",
+      "exact_fee_sat": 241306
+    },
+    {
+      "fixture": "cap12_seed019_chain.json",
+      "exact_fee_sat": 249130
+    },
+    {
+      "fixture": "cap12_seed019_cpfp.json",
+      "exact_fee_sat": 249130
+    },
+    {
+      "fixture": "cap12_seed019_independent.json",
+      "exact_fee_sat": 249130
+    },
+    {
+      "fixture": "cap12_seed019_mixed.json",
+      "exact_fee_sat": 249130
+    },
+    {
+      "fixture": "cap12_seed019_star.json",
+      "exact_fee_sat": 249130
+    },
+    {
+      "fixture": "cap12_seed020_chain.json",
+      "exact_fee_sat": 299334
+    },
+    {
+      "fixture": "cap12_seed020_cpfp.json",
+      "exact_fee_sat": 299334
+    },
+    {
+      "fixture": "cap12_seed020_independent.json",
+      "exact_fee_sat": 299334
+    },
+    {
+      "fixture": "cap12_seed020_mixed.json",
+      "exact_fee_sat": 299334
+    },
+    {
+      "fixture": "cap12_seed020_star.json",
+      "exact_fee_sat": 299334
+    },
+    {
+      "fixture": "cap12_seed021_chain.json",
+      "exact_fee_sat": 297378
+    },
+    {
+      "fixture": "cap12_seed021_cpfp.json",
+      "exact_fee_sat": 297378
+    },
+    {
+      "fixture": "cap12_seed021_independent.json",
+      "exact_fee_sat": 297378
+    },
+    {
+      "fixture": "cap12_seed021_mixed.json",
+      "exact_fee_sat": 297378
+    },
+    {
+      "fixture": "cap12_seed021_star.json",
+      "exact_fee_sat": 297378
+    },
+    {
+      "fixture": "cap12_seed022_chain.json",
+      "exact_fee_sat": 250760
+    },
+    {
+      "fixture": "cap12_seed022_cpfp.json",
+      "exact_fee_sat": 250760
+    },
+    {
+      "fixture": "cap12_seed022_independent.json",
+      "exact_fee_sat": 250760
+    },
+    {
+      "fixture": "cap12_seed022_mixed.json",
+      "exact_fee_sat": 250760
+    },
+    {
+      "fixture": "cap12_seed022_star.json",
+      "exact_fee_sat": 250760
+    },
+    {
+      "fixture": "cap12_seed023_chain.json",
+      "exact_fee_sat": 240328
+    },
+    {
+      "fixture": "cap12_seed023_cpfp.json",
+      "exact_fee_sat": 240328
+    },
+    {
+      "fixture": "cap12_seed023_independent.json",
+      "exact_fee_sat": 240328
+    },
+    {
+      "fixture": "cap12_seed023_mixed.json",
+      "exact_fee_sat": 240328
+    },
+    {
+      "fixture": "cap12_seed023_star.json",
+      "exact_fee_sat": 240328
+    },
+    {
+      "fixture": "cap12_seed024_chain.json",
+      "exact_fee_sat": 239676
+    },
+    {
+      "fixture": "cap12_seed024_cpfp.json",
+      "exact_fee_sat": 239676
+    },
+    {
+      "fixture": "cap12_seed024_independent.json",
+      "exact_fee_sat": 239676
+    },
+    {
+      "fixture": "cap12_seed024_mixed.json",
+      "exact_fee_sat": 239676
+    },
+    {
+      "fixture": "cap12_seed024_star.json",
+      "exact_fee_sat": 239676
+    },
+    {
+      "fixture": "cap12_seed025_chain.json",
+      "exact_fee_sat": 275536
+    },
+    {
+      "fixture": "cap12_seed025_cpfp.json",
+      "exact_fee_sat": 275536
+    },
+    {
+      "fixture": "cap12_seed025_independent.json",
+      "exact_fee_sat": 275536
+    },
+    {
+      "fixture": "cap12_seed025_mixed.json",
+      "exact_fee_sat": 275536
+    },
+    {
+      "fixture": "cap12_seed025_star.json",
+      "exact_fee_sat": 275536
+    },
+    {
+      "fixture": "cap12_seed026_chain.json",
+      "exact_fee_sat": 241958
+    },
+    {
+      "fixture": "cap12_seed026_cpfp.json",
+      "exact_fee_sat": 241958
+    },
+    {
+      "fixture": "cap12_seed026_independent.json",
+      "exact_fee_sat": 241958
+    },
+    {
+      "fixture": "cap12_seed026_mixed.json",
+      "exact_fee_sat": 241958
+    },
+    {
+      "fixture": "cap12_seed026_star.json",
+      "exact_fee_sat": 241958
+    },
+    {
+      "fixture": "cap12_seed027_chain.json",
+      "exact_fee_sat": 208380
+    },
+    {
+      "fixture": "cap12_seed027_cpfp.json",
+      "exact_fee_sat": 208380
+    },
+    {
+      "fixture": "cap12_seed027_independent.json",
+      "exact_fee_sat": 208380
+    },
+    {
+      "fixture": "cap12_seed027_mixed.json",
+      "exact_fee_sat": 208380
+    },
+    {
+      "fixture": "cap12_seed027_star.json",
+      "exact_fee_sat": 208380
+    },
+    {
+      "fixture": "cap12_seed028_chain.json",
+      "exact_fee_sat": 254998
+    },
+    {
+      "fixture": "cap12_seed028_cpfp.json",
+      "exact_fee_sat": 254998
+    },
+    {
+      "fixture": "cap12_seed028_independent.json",
+      "exact_fee_sat": 254998
+    },
+    {
+      "fixture": "cap12_seed028_mixed.json",
+      "exact_fee_sat": 254998
+    },
+    {
+      "fixture": "cap12_seed028_star.json",
+      "exact_fee_sat": 254998
+    },
+    {
+      "fixture": "cap12_seed029_chain.json",
+      "exact_fee_sat": 270320
+    },
+    {
+      "fixture": "cap12_seed029_cpfp.json",
+      "exact_fee_sat": 270320
+    },
+    {
+      "fixture": "cap12_seed029_independent.json",
+      "exact_fee_sat": 270320
+    },
+    {
+      "fixture": "cap12_seed029_mixed.json",
+      "exact_fee_sat": 270320
+    },
+    {
+      "fixture": "cap12_seed029_star.json",
+      "exact_fee_sat": 270320
+    },
+    {
+      "fixture": "cap12_seed030_chain.json",
+      "exact_fee_sat": 225332
+    },
+    {
+      "fixture": "cap12_seed030_cpfp.json",
+      "exact_fee_sat": 225332
+    },
+    {
+      "fixture": "cap12_seed030_independent.json",
+      "exact_fee_sat": 225332
+    },
+    {
+      "fixture": "cap12_seed030_mixed.json",
+      "exact_fee_sat": 225332
+    },
+    {
+      "fixture": "cap12_seed030_star.json",
+      "exact_fee_sat": 225332
+    },
+    {
+      "fixture": "cap12_seed031_chain.json",
+      "exact_fee_sat": 218160
+    },
+    {
+      "fixture": "cap12_seed031_cpfp.json",
+      "exact_fee_sat": 218160
+    },
+    {
+      "fixture": "cap12_seed031_independent.json",
+      "exact_fee_sat": 218160
+    },
+    {
+      "fixture": "cap12_seed031_mixed.json",
+      "exact_fee_sat": 218160
+    },
+    {
+      "fixture": "cap12_seed031_star.json",
+      "exact_fee_sat": 218160
+    },
+    {
+      "fixture": "cap12_seed032_chain.json",
+      "exact_fee_sat": 219464
+    },
+    {
+      "fixture": "cap12_seed032_cpfp.json",
+      "exact_fee_sat": 219464
+    },
+    {
+      "fixture": "cap12_seed032_independent.json",
+      "exact_fee_sat": 219464
+    },
+    {
+      "fixture": "cap12_seed032_mixed.json",
+      "exact_fee_sat": 219464
+    },
+    {
+      "fixture": "cap12_seed032_star.json",
+      "exact_fee_sat": 219464
+    },
+    {
+      "fixture": "cap12_seed033_chain.json",
+      "exact_fee_sat": 322154
+    },
+    {
+      "fixture": "cap12_seed033_cpfp.json",
+      "exact_fee_sat": 322154
+    },
+    {
+      "fixture": "cap12_seed033_independent.json",
+      "exact_fee_sat": 322154
+    },
+    {
+      "fixture": "cap12_seed033_mixed.json",
+      "exact_fee_sat": 322154
+    },
+    {
+      "fixture": "cap12_seed033_star.json",
+      "exact_fee_sat": 322154
+    },
+    {
+      "fixture": "cap12_seed034_chain.json",
+      "exact_fee_sat": 258584
+    },
+    {
+      "fixture": "cap12_seed034_cpfp.json",
+      "exact_fee_sat": 258584
+    },
+    {
+      "fixture": "cap12_seed034_independent.json",
+      "exact_fee_sat": 258584
+    },
+    {
+      "fixture": "cap12_seed034_mixed.json",
+      "exact_fee_sat": 258584
+    },
+    {
+      "fixture": "cap12_seed034_star.json",
+      "exact_fee_sat": 258584
+    },
+    {
+      "fixture": "cap12_seed035_chain.json",
+      "exact_fee_sat": 251412
+    },
+    {
+      "fixture": "cap12_seed035_cpfp.json",
+      "exact_fee_sat": 251412
+    },
+    {
+      "fixture": "cap12_seed035_independent.json",
+      "exact_fee_sat": 251412
+    },
+    {
+      "fixture": "cap12_seed035_mixed.json",
+      "exact_fee_sat": 251412
+    },
+    {
+      "fixture": "cap12_seed035_star.json",
+      "exact_fee_sat": 251412
+    },
+    {
+      "fixture": "cap12_seed036_chain.json",
+      "exact_fee_sat": 279774
+    },
+    {
+      "fixture": "cap12_seed036_cpfp.json",
+      "exact_fee_sat": 279774
+    },
+    {
+      "fixture": "cap12_seed036_independent.json",
+      "exact_fee_sat": 279774
+    },
+    {
+      "fixture": "cap12_seed036_mixed.json",
+      "exact_fee_sat": 279774
+    },
+    {
+      "fixture": "cap12_seed036_star.json",
+      "exact_fee_sat": 279774
+    },
+    {
+      "fixture": "cap12_seed037_chain.json",
+      "exact_fee_sat": 297378
+    },
+    {
+      "fixture": "cap12_seed037_cpfp.json",
+      "exact_fee_sat": 297378
+    },
+    {
+      "fixture": "cap12_seed037_independent.json",
+      "exact_fee_sat": 297378
+    },
+    {
+      "fixture": "cap12_seed037_mixed.json",
+      "exact_fee_sat": 297378
+    },
+    {
+      "fixture": "cap12_seed037_star.json",
+      "exact_fee_sat": 297378
+    },
+    {
+      "fixture": "cap12_seed038_chain.json",
+      "exact_fee_sat": 225006
+    },
+    {
+      "fixture": "cap12_seed038_cpfp.json",
+      "exact_fee_sat": 225006
+    },
+    {
+      "fixture": "cap12_seed038_independent.json",
+      "exact_fee_sat": 225006
+    },
+    {
+      "fixture": "cap12_seed038_mixed.json",
+      "exact_fee_sat": 225006
+    },
+    {
+      "fixture": "cap12_seed038_star.json",
+      "exact_fee_sat": 225006
+    },
+    {
+      "fixture": "cap12_seed039_chain.json",
+      "exact_fee_sat": 223376
+    },
+    {
+      "fixture": "cap12_seed039_cpfp.json",
+      "exact_fee_sat": 223376
+    },
+    {
+      "fixture": "cap12_seed039_independent.json",
+      "exact_fee_sat": 223376
+    },
+    {
+      "fixture": "cap12_seed039_mixed.json",
+      "exact_fee_sat": 223376
+    },
+    {
+      "fixture": "cap12_seed039_star.json",
+      "exact_fee_sat": 223376
+    },
+    {
+      "fixture": "cap2_seed000_chain.json",
+      "exact_fee_sat": 72067
+    },
+    {
+      "fixture": "cap2_seed000_cpfp.json",
+      "exact_fee_sat": 76297
+    },
+    {
+      "fixture": "cap2_seed000_independent.json",
+      "exact_fee_sat": 90965
+    },
+    {
+      "fixture": "cap2_seed000_mixed.json",
+      "exact_fee_sat": 72067
+    },
+    {
+      "fixture": "cap2_seed000_star.json",
+      "exact_fee_sat": 72067
+    },
+    {
+      "fixture": "cap2_seed001_chain.json",
+      "exact_fee_sat": 59999
+    },
+    {
+      "fixture": "cap2_seed001_cpfp.json",
+      "exact_fee_sat": 69769
+    },
+    {
+      "fixture": "cap2_seed001_independent.json",
+      "exact_fee_sat": 88349
+    },
+    {
+      "fixture": "cap2_seed001_mixed.json",
+      "exact_fee_sat": 59999
+    },
+    {
+      "fixture": "cap2_seed001_star.json",
+      "exact_fee_sat": 52813
+    },
+    {
+      "fixture": "cap2_seed002_chain.json",
+      "exact_fee_sat": 71411
+    },
+    {
+      "fixture": "cap2_seed002_cpfp.json",
+      "exact_fee_sat": 71411
+    },
+    {
+      "fixture": "cap2_seed002_independent.json",
+      "exact_fee_sat": 89010
+    },
+    {
+      "fixture": "cap2_seed002_mixed.json",
+      "exact_fee_sat": 71411
+    },
+    {
+      "fixture": "cap2_seed002_star.json",
+      "exact_fee_sat": 71411
+    },
+    {
+      "fixture": "cap2_seed003_chain.json",
+      "exact_fee_sat": 65539
+    },
+    {
+      "fixture": "cap2_seed003_cpfp.json",
+      "exact_fee_sat": 65539
+    },
+    {
+      "fixture": "cap2_seed003_independent.json",
+      "exact_fee_sat": 91938
+    },
+    {
+      "fixture": "cap2_seed003_mixed.json",
+      "exact_fee_sat": 65539
+    },
+    {
+      "fixture": "cap2_seed003_star.json",
+      "exact_fee_sat": 53465
+    },
+    {
+      "fixture": "cap2_seed004_chain.json",
+      "exact_fee_sat": 53791
+    },
+    {
+      "fixture": "cap2_seed004_cpfp.json",
+      "exact_fee_sat": 54130
+    },
+    {
+      "fixture": "cap2_seed004_independent.json",
+      "exact_fee_sat": 84112
+    },
+    {
+      "fixture": "cap2_seed004_mixed.json",
+      "exact_fee_sat": 53791
+    },
+    {
+      "fixture": "cap2_seed004_star.json",
+      "exact_fee_sat": 53791
+    },
+    {
+      "fixture": "cap2_seed005_chain.json",
+      "exact_fee_sat": 74668
+    },
+    {
+      "fixture": "cap2_seed005_cpfp.json",
+      "exact_fee_sat": 74668
+    },
+    {
+      "fixture": "cap2_seed005_independent.json",
+      "exact_fee_sat": 92919
+    },
+    {
+      "fixture": "cap2_seed005_mixed.json",
+      "exact_fee_sat": 74668
+    },
+    {
+      "fixture": "cap2_seed005_star.json",
+      "exact_fee_sat": 74668
+    },
+    {
+      "fixture": "cap2_seed006_chain.json",
+      "exact_fee_sat": 60325
+    },
+    {
+      "fixture": "cap2_seed006_cpfp.json",
+      "exact_fee_sat": 67163
+    },
+    {
+      "fixture": "cap2_seed006_independent.json",
+      "exact_fee_sat": 89001
+    },
+    {
+      "fixture": "cap2_seed006_mixed.json",
+      "exact_fee_sat": 60325
+    },
+    {
+      "fixture": "cap2_seed006_star.json",
+      "exact_fee_sat": 54443
+    },
+    {
+      "fixture": "cap2_seed007_chain.json",
+      "exact_fee_sat": 59674
+    },
+    {
+      "fixture": "cap2_seed007_cpfp.json",
+      "exact_fee_sat": 62601
+    },
+    {
+      "fixture": "cap2_seed007_independent.json",
+      "exact_fee_sat": 89331
+    },
+    {
+      "fixture": "cap2_seed007_mixed.json",
+      "exact_fee_sat": 59674
+    },
+    {
+      "fixture": "cap2_seed007_star.json",
+      "exact_fee_sat": 59674
+    },
+    {
+      "fixture": "cap2_seed008_chain.json",
+      "exact_fee_sat": 64237
+    },
+    {
+      "fixture": "cap2_seed008_cpfp.json",
+      "exact_fee_sat": 64237
+    },
+    {
+      "fixture": "cap2_seed008_independent.json",
+      "exact_fee_sat": 89009
+    },
+    {
+      "fixture": "cap2_seed008_mixed.json",
+      "exact_fee_sat": 64237
+    },
+    {
+      "fixture": "cap2_seed008_star.json",
+      "exact_fee_sat": 55767
+    },
+    {
+      "fixture": "cap2_seed009_chain.json",
+      "exact_fee_sat": 74345
+    },
+    {
+      "fixture": "cap2_seed009_cpfp.json",
+      "exact_fee_sat": 74345
+    },
+    {
+      "fixture": "cap2_seed009_independent.json",
+      "exact_fee_sat": 92922
+    },
+    {
+      "fixture": "cap2_seed009_mixed.json",
+      "exact_fee_sat": 74345
+    },
+    {
+      "fixture": "cap2_seed009_star.json",
+      "exact_fee_sat": 74345
+    },
+    {
+      "fixture": "cap2_seed010_chain.json",
+      "exact_fee_sat": 69454
+    },
+    {
+      "fixture": "cap2_seed010_cpfp.json",
+      "exact_fee_sat": 69454
+    },
+    {
+      "fixture": "cap2_seed010_independent.json",
+      "exact_fee_sat": 90312
+    },
+    {
+      "fixture": "cap2_seed010_mixed.json",
+      "exact_fee_sat": 69454
+    },
+    {
+      "fixture": "cap2_seed010_star.json",
+      "exact_fee_sat": 69454
+    },
+    {
+      "fixture": "cap2_seed011_chain.json",
+      "exact_fee_sat": 73039
+    },
+    {
+      "fixture": "cap2_seed011_cpfp.json",
+      "exact_fee_sat": 75313
+    },
+    {
+      "fixture": "cap2_seed011_independent.json",
+      "exact_fee_sat": 94871
+    },
+    {
+      "fixture": "cap2_seed011_mixed.json",
+      "exact_fee_sat": 73039
+    },
+    {
+      "fixture": "cap2_seed011_star.json",
+      "exact_fee_sat": 59025
+    },
+    {
+      "fixture": "cap2_seed012_chain.json",
+      "exact_fee_sat": 56399
+    },
+    {
+      "fixture": "cap2_seed012_cpfp.json",
+      "exact_fee_sat": 56404
+    },
+    {
+      "fixture": "cap2_seed012_independent.json",
+      "exact_fee_sat": 84439
+    },
+    {
+      "fixture": "cap2_seed012_mixed.json",
+      "exact_fee_sat": 56399
+    },
+    {
+      "fixture": "cap2_seed012_star.json",
+      "exact_fee_sat": 56399
+    },
+    {
+      "fixture": "cap2_seed013_chain.json",
+      "exact_fee_sat": 73361
+    },
+    {
+      "fixture": "cap2_seed013_cpfp.json",
+      "exact_fee_sat": 75967
+    },
+    {
+      "fixture": "cap2_seed013_independent.json",
+      "exact_fee_sat": 94870
+    },
+    {
+      "fixture": "cap2_seed013_mixed.json",
+      "exact_fee_sat": 73361
+    },
+    {
+      "fixture": "cap2_seed013_star.json",
+      "exact_fee_sat": 65868
+    },
+    {
+      "fixture": "cap2_seed014_chain.json",
+      "exact_fee_sat": 62285
+    },
+    {
+      "fixture": "cap2_seed014_cpfp.json",
+      "exact_fee_sat": 63255
+    },
+    {
+      "fixture": "cap2_seed014_independent.json",
+      "exact_fee_sat": 88676
+    },
+    {
+      "fixture": "cap2_seed014_mixed.json",
+      "exact_fee_sat": 62285
+    },
+    {
+      "fixture": "cap2_seed014_star.json",
+      "exact_fee_sat": 62285
+    },
+    {
+      "fixture": "cap2_seed015_chain.json",
+      "exact_fee_sat": 75648
+    },
+    {
+      "fixture": "cap2_seed015_cpfp.json",
+      "exact_fee_sat": 75648
+    },
+    {
+      "fixture": "cap2_seed015_independent.json",
+      "exact_fee_sat": 95525
+    },
+    {
+      "fixture": "cap2_seed015_mixed.json",
+      "exact_fee_sat": 75648
+    },
+    {
+      "fixture": "cap2_seed015_star.json",
+      "exact_fee_sat": 75648
+    },
+    {
+      "fixture": "cap2_seed016_chain.json",
+      "exact_fee_sat": 66524
+    },
+    {
+      "fixture": "cap2_seed016_cpfp.json",
+      "exact_fee_sat": 66524
+    },
+    {
+      "fixture": "cap2_seed016_independent.json",
+      "exact_fee_sat": 93572
+    },
+    {
+      "fixture": "cap2_seed016_mixed.json",
+      "exact_fee_sat": 66524
+    },
+    {
+      "fixture": "cap2_seed016_star.json",
+      "exact_fee_sat": 66524
+    },
+    {
+      "fixture": "cap2_seed017_chain.json",
+      "exact_fee_sat": 62607
+    },
+    {
+      "fixture": "cap2_seed017_cpfp.json",
+      "exact_fee_sat": 66839
+    },
+    {
+      "fixture": "cap2_seed017_independent.json",
+      "exact_fee_sat": 91935
+    },
+    {
+      "fixture": "cap2_seed017_mixed.json",
+      "exact_fee_sat": 62607
+    },
+    {
+      "fixture": "cap2_seed017_star.json",
+      "exact_fee_sat": 62607
+    },
+    {
+      "fixture": "cap2_seed018_chain.json",
+      "exact_fee_sat": 58355
+    },
+    {
+      "fixture": "cap2_seed018_cpfp.json",
+      "exact_fee_sat": 58355
+    },
+    {
+      "fixture": "cap2_seed018_independent.json",
+      "exact_fee_sat": 86067
+    },
+    {
+      "fixture": "cap2_seed018_mixed.json",
+      "exact_fee_sat": 58355
+    },
+    {
+      "fixture": "cap2_seed018_star.json",
+      "exact_fee_sat": 58355
+    },
+    {
+      "fixture": "cap2_seed019_chain.json",
+      "exact_fee_sat": 52487
+    },
+    {
+      "fixture": "cap2_seed019_cpfp.json",
+      "exact_fee_sat": 71073
+    },
+    {
+      "fixture": "cap2_seed019_independent.json",
+      "exact_fee_sat": 89980
+    },
+    {
+      "fixture": "cap2_seed019_mixed.json",
+      "exact_fee_sat": 52487
+    },
+    {
+      "fixture": "cap2_seed019_star.json",
+      "exact_fee_sat": 52487
+    },
+    {
+      "fixture": "cap2_seed020_chain.json",
+      "exact_fee_sat": 73039
+    },
+    {
+      "fixture": "cap2_seed020_cpfp.json",
+      "exact_fee_sat": 73039
+    },
+    {
+      "fixture": "cap2_seed020_independent.json",
+      "exact_fee_sat": 89656
+    },
+    {
+      "fixture": "cap2_seed020_mixed.json",
+      "exact_fee_sat": 73039
+    },
+    {
+      "fixture": "cap2_seed020_star.json",
+      "exact_fee_sat": 64566
+    },
+    {
+      "fixture": "cap2_seed021_chain.json",
+      "exact_fee_sat": 69780
+    },
+    {
+      "fixture": "cap2_seed021_cpfp.json",
+      "exact_fee_sat": 69780
+    },
+    {
+      "fixture": "cap2_seed021_independent.json",
+      "exact_fee_sat": 88353
+    },
+    {
+      "fixture": "cap2_seed021_mixed.json",
+      "exact_fee_sat": 69780
+    },
+    {
+      "fixture": "cap2_seed021_star.json",
+      "exact_fee_sat": 69780
+    },
+    {
+      "fixture": "cap2_seed022_chain.json",
+      "exact_fee_sat": 68480
+    },
+    {
+      "fixture": "cap2_seed022_cpfp.json",
+      "exact_fee_sat": 68480
+    },
+    {
+      "fixture": "cap2_seed022_independent.json",
+      "exact_fee_sat": 90314
+    },
+    {
+      "fixture": "cap2_seed022_mixed.json",
+      "exact_fee_sat": 68480
+    },
+    {
+      "fixture": "cap2_seed022_star.json",
+      "exact_fee_sat": 68480
+    },
+    {
+      "fixture": "cap2_seed023_chain.json",
+      "exact_fee_sat": 60321
+    },
+    {
+      "fixture": "cap2_seed023_cpfp.json",
+      "exact_fee_sat": 73031
+    },
+    {
+      "fixture": "cap2_seed023_independent.json",
+      "exact_fee_sat": 91284
+    },
+    {
+      "fixture": "cap2_seed023_mixed.json",
+      "exact_fee_sat": 60321
+    },
+    {
+      "fixture": "cap2_seed023_star.json",
+      "exact_fee_sat": 53791
+    },
+    {
+      "fixture": "cap2_seed024_chain.json",
+      "exact_fee_sat": 59026
+    },
+    {
+      "fixture": "cap2_seed024_cpfp.json",
+      "exact_fee_sat": 65539
+    },
+    {
+      "fixture": "cap2_seed024_independent.json",
+      "exact_fee_sat": 89327
+    },
+    {
+      "fixture": "cap2_seed024_mixed.json",
+      "exact_fee_sat": 59026
+    },
+    {
+      "fixture": "cap2_seed024_star.json",
+      "exact_fee_sat": 59026
+    },
+    {
+      "fixture": "cap2_seed025_chain.json",
+      "exact_fee_sat": 73041
+    },
+    {
+      "fixture": "cap2_seed025_cpfp.json",
+      "exact_fee_sat": 75966
+    },
+    {
+      "fixture": "cap2_seed025_independent.json",
+      "exact_fee_sat": 93239
+    },
+    {
+      "fixture": "cap2_seed025_mixed.json",
+      "exact_fee_sat": 73041
+    },
+    {
+      "fixture": "cap2_seed025_star.json",
+      "exact_fee_sat": 73041
+    },
+    {
+      "fixture": "cap2_seed026_chain.json",
+      "exact_fee_sat": 65221
+    },
+    {
+      "fixture": "cap2_seed026_cpfp.json",
+      "exact_fee_sat": 65221
+    },
+    {
+      "fixture": "cap2_seed026_independent.json",
+      "exact_fee_sat": 87379
+    },
+    {
+      "fixture": "cap2_seed026_mixed.json",
+      "exact_fee_sat": 65221
+    },
+    {
+      "fixture": "cap2_seed026_star.json",
+      "exact_fee_sat": 65221
+    },
+    {
+      "fixture": "cap2_seed027_chain.json",
+      "exact_fee_sat": 58047
+    },
+    {
+      "fixture": "cap2_seed027_cpfp.json",
+      "exact_fee_sat": 64559
+    },
+    {
+      "fixture": "cap2_seed027_independent.json",
+      "exact_fee_sat": 89660
+    },
+    {
+      "fixture": "cap2_seed027_mixed.json",
+      "exact_fee_sat": 58047
+    },
+    {
+      "fixture": "cap2_seed027_star.json",
+      "exact_fee_sat": 58047
+    },
+    {
+      "fixture": "cap2_seed028_chain.json",
+      "exact_fee_sat": 62607
+    },
+    {
+      "fixture": "cap2_seed028_cpfp.json",
+      "exact_fee_sat": 62607
+    },
+    {
+      "fixture": "cap2_seed028_independent.json",
+      "exact_fee_sat": 87379
+    },
+    {
+      "fixture": "cap2_seed028_mixed.json",
+      "exact_fee_sat": 62607
+    },
+    {
+      "fixture": "cap2_seed028_star.json",
+      "exact_fee_sat": 59350
+    },
+    {
+      "fixture": "cap2_seed029_chain.json",
+      "exact_fee_sat": 74993
+    },
+    {
+      "fixture": "cap2_seed029_cpfp.json",
+      "exact_fee_sat": 74993
+    },
+    {
+      "fixture": "cap2_seed029_independent.json",
+      "exact_fee_sat": 94550
+    },
+    {
+      "fixture": "cap2_seed029_mixed.json",
+      "exact_fee_sat": 74993
+    },
+    {
+      "fixture": "cap2_seed029_star.json",
+      "exact_fee_sat": 60979
+    },
+    {
+      "fixture": "cap2_seed030_chain.json",
+      "exact_fee_sat": 62605
+    },
+    {
+      "fixture": "cap2_seed030_cpfp.json",
+      "exact_fee_sat": 62605
+    },
+    {
+      "fixture": "cap2_seed030_independent.json",
+      "exact_fee_sat": 90636
+    },
+    {
+      "fixture": "cap2_seed030_mixed.json",
+      "exact_fee_sat": 62605
+    },
+    {
+      "fixture": "cap2_seed030_star.json",
+      "exact_fee_sat": 62605
+    },
+    {
+      "fixture": "cap2_seed031_chain.json",
+      "exact_fee_sat": 59349
+    },
+    {
+      "fixture": "cap2_seed031_cpfp.json",
+      "exact_fee_sat": 62606
+    },
+    {
+      "fixture": "cap2_seed031_independent.json",
+      "exact_fee_sat": 88350
+    },
+    {
+      "fixture": "cap2_seed031_mixed.json",
+      "exact_fee_sat": 59349
+    },
+    {
+      "fixture": "cap2_seed031_star.json",
+      "exact_fee_sat": 59349
+    },
+    {
+      "fixture": "cap2_seed032_chain.json",
+      "exact_fee_sat": 68802
+    },
+    {
+      "fixture": "cap2_seed032_cpfp.json",
+      "exact_fee_sat": 68802
+    },
+    {
+      "fixture": "cap2_seed032_independent.json",
+      "exact_fee_sat": 94547
+    },
+    {
+      "fixture": "cap2_seed032_mixed.json",
+      "exact_fee_sat": 68802
+    },
+    {
+      "fixture": "cap2_seed032_star.json",
+      "exact_fee_sat": 68802
+    },
+    {
+      "fixture": "cap2_seed033_chain.json",
+      "exact_fee_sat": 74999
+    },
+    {
+      "fixture": "cap2_seed033_cpfp.json",
+      "exact_fee_sat": 74999
+    },
+    {
+      "fixture": "cap2_seed033_independent.json",
+      "exact_fee_sat": 94551
+    },
+    {
+      "fixture": "cap2_seed033_mixed.json",
+      "exact_fee_sat": 74999
+    },
+    {
+      "fixture": "cap2_seed033_star.json",
+      "exact_fee_sat": 74999
+    },
+    {
+      "fixture": "cap2_seed034_chain.json",
+      "exact_fee_sat": 75319
+    },
+    {
+      "fixture": "cap2_seed034_cpfp.json",
+      "exact_fee_sat": 75319
+    },
+    {
+      "fixture": "cap2_seed034_independent.json",
+      "exact_fee_sat": 95199
+    },
+    {
+      "fixture": "cap2_seed034_mixed.json",
+      "exact_fee_sat": 75319
+    },
+    {
+      "fixture": "cap2_seed034_star.json",
+      "exact_fee_sat": 75319
+    },
+    {
+      "fixture": "cap2_seed035_chain.json",
+      "exact_fee_sat": 68144
+    },
+    {
+      "fixture": "cap2_seed035_cpfp.json",
+      "exact_fee_sat": 68468
+    },
+    {
+      "fixture": "cap2_seed035_independent.json",
+      "exact_fee_sat": 93895
+    },
+    {
+      "fixture": "cap2_seed035_mixed.json",
+      "exact_fee_sat": 68144
+    },
+    {
+      "fixture": "cap2_seed035_star.json",
+      "exact_fee_sat": 60653
+    },
+    {
+      "fixture": "cap2_seed036_chain.json",
+      "exact_fee_sat": 77271
+    },
+    {
+      "fixture": "cap2_seed036_cpfp.json",
+      "exact_fee_sat": 77271
+    },
+    {
+      "fixture": "cap2_seed036_independent.json",
+      "exact_fee_sat": 96501
+    },
+    {
+      "fixture": "cap2_seed036_mixed.json",
+      "exact_fee_sat": 77271
+    },
+    {
+      "fixture": "cap2_seed036_star.json",
+      "exact_fee_sat": 70756
+    },
+    {
+      "fixture": "cap2_seed037_chain.json",
+      "exact_fee_sat": 70754
+    },
+    {
+      "fixture": "cap2_seed037_cpfp.json",
+      "exact_fee_sat": 70754
+    },
+    {
+      "fixture": "cap2_seed037_independent.json",
+      "exact_fee_sat": 93568
+    },
+    {
+      "fixture": "cap2_seed037_mixed.json",
+      "exact_fee_sat": 70754
+    },
+    {
+      "fixture": "cap2_seed037_star.json",
+      "exact_fee_sat": 66843
+    },
+    {
+      "fixture": "cap2_seed038_chain.json",
+      "exact_fee_sat": 60322
+    },
+    {
+      "fixture": "cap2_seed038_cpfp.json",
+      "exact_fee_sat": 62599
+    },
+    {
+      "fixture": "cap2_seed038_independent.json",
+      "exact_fee_sat": 84112
+    },
+    {
+      "fixture": "cap2_seed038_mixed.json",
+      "exact_fee_sat": 60322
+    },
+    {
+      "fixture": "cap2_seed038_star.json",
+      "exact_fee_sat": 52487
+    },
+    {
+      "fixture": "cap2_seed039_chain.json",
+      "exact_fee_sat": 64892
+    },
+    {
+      "fixture": "cap2_seed039_cpfp.json",
+      "exact_fee_sat": 64892
+    },
+    {
+      "fixture": "cap2_seed039_independent.json",
+      "exact_fee_sat": 86402
+    },
+    {
+      "fixture": "cap2_seed039_mixed.json",
+      "exact_fee_sat": 64892
+    },
+    {
+      "fixture": "cap2_seed039_star.json",
+      "exact_fee_sat": 64892
+    },
+    {
+      "fixture": "cap4_seed000_chain.json",
+      "exact_fee_sat": 124554
+    },
+    {
+      "fixture": "cap4_seed000_cpfp.json",
+      "exact_fee_sat": 141836
+    },
+    {
+      "fixture": "cap4_seed000_independent.json",
+      "exact_fee_sat": 161721
+    },
+    {
+      "fixture": "cap4_seed000_mixed.json",
+      "exact_fee_sat": 124554
+    },
+    {
+      "fixture": "cap4_seed000_star.json",
+      "exact_fee_sat": 128784
+    },
+    {
+      "fixture": "cap4_seed001_chain.json",
+      "exact_fee_sat": 122582
+    },
+    {
+      "fixture": "cap4_seed001_cpfp.json",
+      "exact_fee_sat": 129768
+    },
+    {
+      "fixture": "cap4_seed001_independent.json",
+      "exact_fee_sat": 154534
+    },
+    {
+      "fixture": "cap4_seed001_mixed.json",
+      "exact_fee_sat": 122582
+    },
+    {
+      "fixture": "cap4_seed001_star.json",
+      "exact_fee_sat": 122582
+    },
+    {
+      "fixture": "cap4_seed002_chain.json",
+      "exact_fee_sat": 136954
+    },
+    {
+      "fixture": "cap4_seed002_cpfp.json",
+      "exact_fee_sat": 136954
+    },
+    {
+      "fixture": "cap4_seed002_independent.json",
+      "exact_fee_sat": 158463
+    },
+    {
+      "fixture": "cap4_seed002_mixed.json",
+      "exact_fee_sat": 136954
+    },
+    {
+      "fixture": "cap4_seed002_star.json",
+      "exact_fee_sat": 136954
+    },
+    {
+      "fixture": "cap4_seed003_chain.json",
+      "exact_fee_sat": 119004
+    },
+    {
+      "fixture": "cap4_seed003_cpfp.json",
+      "exact_fee_sat": 119004
+    },
+    {
+      "fixture": "cap4_seed003_independent.json",
+      "exact_fee_sat": 144438
+    },
+    {
+      "fixture": "cap4_seed003_mixed.json",
+      "exact_fee_sat": 119004
+    },
+    {
+      "fixture": "cap4_seed003_star.json",
+      "exact_fee_sat": 119004
+    },
+    {
+      "fixture": "cap4_seed004_chain.json",
+      "exact_fee_sat": 97817
+    },
+    {
+      "fixture": "cap4_seed004_cpfp.json",
+      "exact_fee_sat": 107921
+    },
+    {
+      "fixture": "cap4_seed004_independent.json",
+      "exact_fee_sat": 128138
+    },
+    {
+      "fixture": "cap4_seed004_mixed.json",
+      "exact_fee_sat": 97817
+    },
+    {
+      "fixture": "cap4_seed004_star.json",
+      "exact_fee_sat": 107921
+    },
+    {
+      "fixture": "cap4_seed005_chain.json",
+      "exact_fee_sat": 137595
+    },
+    {
+      "fixture": "cap4_seed005_cpfp.json",
+      "exact_fee_sat": 139548
+    },
+    {
+      "fixture": "cap4_seed005_independent.json",
+      "exact_fee_sat": 162041
+    },
+    {
+      "fixture": "cap4_seed005_mixed.json",
+      "exact_fee_sat": 137595
+    },
+    {
+      "fixture": "cap4_seed005_star.json",
+      "exact_fee_sat": 128785
+    },
+    {
+      "fixture": "cap4_seed006_chain.json",
+      "exact_fee_sat": 121606
+    },
+    {
+      "fixture": "cap4_seed006_cpfp.json",
+      "exact_fee_sat": 121606
+    },
+    {
+      "fixture": "cap4_seed006_independent.json",
+      "exact_fee_sat": 149326
+    },
+    {
+      "fixture": "cap4_seed006_mixed.json",
+      "exact_fee_sat": 121606
+    },
+    {
+      "fixture": "cap4_seed006_star.json",
+      "exact_fee_sat": 121606
+    },
+    {
+      "fixture": "cap4_seed007_chain.json",
+      "exact_fee_sat": 114443
+    },
+    {
+      "fixture": "cap4_seed007_cpfp.json",
+      "exact_fee_sat": 117370
+    },
+    {
+      "fixture": "cap4_seed007_independent.json",
+      "exact_fee_sat": 141830
+    },
+    {
+      "fixture": "cap4_seed007_mixed.json",
+      "exact_fee_sat": 114443
+    },
+    {
+      "fixture": "cap4_seed007_star.json",
+      "exact_fee_sat": 117370
+    },
+    {
+      "fixture": "cap4_seed008_chain.json",
+      "exact_fee_sat": 119332
+    },
+    {
+      "fixture": "cap4_seed008_cpfp.json",
+      "exact_fee_sat": 119332
+    },
+    {
+      "fixture": "cap4_seed008_independent.json",
+      "exact_fee_sat": 140533
+    },
+    {
+      "fixture": "cap4_seed008_mixed.json",
+      "exact_fee_sat": 119332
+    },
+    {
+      "fixture": "cap4_seed008_star.json",
+      "exact_fee_sat": 119332
+    },
+    {
+      "fixture": "cap4_seed009_chain.json",
+      "exact_fee_sat": 129766
+    },
+    {
+      "fixture": "cap4_seed009_cpfp.json",
+      "exact_fee_sat": 129766
+    },
+    {
+      "fixture": "cap4_seed009_independent.json",
+      "exact_fee_sat": 158135
+    },
+    {
+      "fixture": "cap4_seed009_mixed.json",
+      "exact_fee_sat": 129766
+    },
+    {
+      "fixture": "cap4_seed009_star.json",
+      "exact_fee_sat": 129766
+    },
+    {
+      "fixture": "cap4_seed010_chain.json",
+      "exact_fee_sat": 125201
+    },
+    {
+      "fixture": "cap4_seed010_cpfp.json",
+      "exact_fee_sat": 125201
+    },
+    {
+      "fixture": "cap4_seed010_independent.json",
+      "exact_fee_sat": 152596
+    },
+    {
+      "fixture": "cap4_seed010_mixed.json",
+      "exact_fee_sat": 125201
+    },
+    {
+      "fixture": "cap4_seed010_star.json",
+      "exact_fee_sat": 125201
+    },
+    {
+      "fixture": "cap4_seed011_chain.json",
+      "exact_fee_sat": 131080
+    },
+    {
+      "fixture": "cap4_seed011_cpfp.json",
+      "exact_fee_sat": 142159
+    },
+    {
+      "fixture": "cap4_seed011_independent.json",
+      "exact_fee_sat": 164975
+    },
+    {
+      "fixture": "cap4_seed011_mixed.json",
+      "exact_fee_sat": 131080
+    },
+    {
+      "fixture": "cap4_seed011_star.json",
+      "exact_fee_sat": 131386
+    },
+    {
+      "fixture": "cap4_seed012_chain.json",
+      "exact_fee_sat": 112803
+    },
+    {
+      "fixture": "cap4_seed012_cpfp.json",
+      "exact_fee_sat": 112803
+    },
+    {
+      "fixture": "cap4_seed012_independent.json",
+      "exact_fee_sat": 134974
+    },
+    {
+      "fixture": "cap4_seed012_mixed.json",
+      "exact_fee_sat": 112803
+    },
+    {
+      "fixture": "cap4_seed012_star.json",
+      "exact_fee_sat": 112803
+    },
+    {
+      "fixture": "cap4_seed013_chain.json",
+      "exact_fee_sat": 135641
+    },
+    {
+      "fixture": "cap4_seed013_cpfp.json",
+      "exact_fee_sat": 145740
+    },
+    {
+      "fixture": "cap4_seed013_independent.json",
+      "exact_fee_sat": 168231
+    },
+    {
+      "fixture": "cap4_seed013_mixed.json",
+      "exact_fee_sat": 135641
+    },
+    {
+      "fixture": "cap4_seed013_star.json",
+      "exact_fee_sat": 132692
+    },
+    {
+      "fixture": "cap4_seed014_chain.json",
+      "exact_fee_sat": 119336
+    },
+    {
+      "fixture": "cap4_seed014_cpfp.json",
+      "exact_fee_sat": 123904
+    },
+    {
+      "fixture": "cap4_seed014_independent.json",
+      "exact_fee_sat": 150961
+    },
+    {
+      "fixture": "cap4_seed014_mixed.json",
+      "exact_fee_sat": 119336
+    },
+    {
+      "fixture": "cap4_seed014_star.json",
+      "exact_fee_sat": 120306
+    },
+    {
+      "fixture": "cap4_seed015_chain.json",
+      "exact_fee_sat": 133025
+    },
+    {
+      "fixture": "cap4_seed015_cpfp.json",
+      "exact_fee_sat": 141188
+    },
+    {
+      "fixture": "cap4_seed015_independent.json",
+      "exact_fee_sat": 166940
+    },
+    {
+      "fixture": "cap4_seed015_mixed.json",
+      "exact_fee_sat": 133025
+    },
+    {
+      "fixture": "cap4_seed015_star.json",
+      "exact_fee_sat": 133025
+    },
+    {
+      "fixture": "cap4_seed016_chain.json",
+      "exact_fee_sat": 124227
+    },
+    {
+      "fixture": "cap4_seed016_cpfp.json",
+      "exact_fee_sat": 124227
+    },
+    {
+      "fixture": "cap4_seed016_independent.json",
+      "exact_fee_sat": 151947
+    },
+    {
+      "fixture": "cap4_seed016_mixed.json",
+      "exact_fee_sat": 124227
+    },
+    {
+      "fixture": "cap4_seed016_star.json",
+      "exact_fee_sat": 124227
+    },
+    {
+      "fixture": "cap4_seed017_chain.json",
+      "exact_fee_sat": 124868
+    },
+    {
+      "fixture": "cap4_seed017_cpfp.json",
+      "exact_fee_sat": 124885
+    },
+    {
+      "fixture": "cap4_seed017_independent.json",
+      "exact_fee_sat": 154542
+    },
+    {
+      "fixture": "cap4_seed017_mixed.json",
+      "exact_fee_sat": 124868
+    },
+    {
+      "fixture": "cap4_seed017_star.json",
+      "exact_fee_sat": 124868
+    },
+    {
+      "fixture": "cap4_seed018_chain.json",
+      "exact_fee_sat": 113133
+    },
+    {
+      "fixture": "cap4_seed018_cpfp.json",
+      "exact_fee_sat": 113133
+    },
+    {
+      "fixture": "cap4_seed018_independent.json",
+      "exact_fee_sat": 134006
+    },
+    {
+      "fixture": "cap4_seed018_mixed.json",
+      "exact_fee_sat": 113133
+    },
+    {
+      "fixture": "cap4_seed018_star.json",
+      "exact_fee_sat": 113133
+    },
+    {
+      "fixture": "cap4_seed019_chain.json",
+      "exact_fee_sat": 123560
+    },
+    {
+      "fixture": "cap4_seed019_cpfp.json",
+      "exact_fee_sat": 123560
+    },
+    {
+      "fixture": "cap4_seed019_independent.json",
+      "exact_fee_sat": 145738
+    },
+    {
+      "fixture": "cap4_seed019_mixed.json",
+      "exact_fee_sat": 123560
+    },
+    {
+      "fixture": "cap4_seed019_star.json",
+      "exact_fee_sat": 123560
+    },
+    {
+      "fixture": "cap4_seed020_chain.json",
+      "exact_fee_sat": 134339
+    },
+    {
+      "fixture": "cap4_seed020_cpfp.json",
+      "exact_fee_sat": 138898
+    },
+    {
+      "fixture": "cap4_seed020_independent.json",
+      "exact_fee_sat": 158781
+    },
+    {
+      "fixture": "cap4_seed020_mixed.json",
+      "exact_fee_sat": 134339
+    },
+    {
+      "fixture": "cap4_seed020_star.json",
+      "exact_fee_sat": 125852
+    },
+    {
+      "fixture": "cap4_seed021_chain.json",
+      "exact_fee_sat": 125219
+    },
+    {
+      "fixture": "cap4_seed021_cpfp.json",
+      "exact_fee_sat": 132708
+    },
+    {
+      "fixture": "cap4_seed021_independent.json",
+      "exact_fee_sat": 156179
+    },
+    {
+      "fixture": "cap4_seed021_mixed.json",
+      "exact_fee_sat": 125219
+    },
+    {
+      "fixture": "cap4_seed021_star.json",
+      "exact_fee_sat": 125219
+    },
+    {
+      "fixture": "cap4_seed022_chain.json",
+      "exact_fee_sat": 125873
+    },
+    {
+      "fixture": "cap4_seed022_cpfp.json",
+      "exact_fee_sat": 125873
+    },
+    {
+      "fixture": "cap4_seed022_independent.json",
+      "exact_fee_sat": 151292
+    },
+    {
+      "fixture": "cap4_seed022_mixed.json",
+      "exact_fee_sat": 125873
+    },
+    {
+      "fixture": "cap4_seed022_star.json",
+      "exact_fee_sat": 125873
+    },
+    {
+      "fixture": "cap4_seed023_chain.json",
+      "exact_fee_sat": 114112
+    },
+    {
+      "fixture": "cap4_seed023_cpfp.json",
+      "exact_fee_sat": 126822
+    },
+    {
+      "fixture": "cap4_seed023_independent.json",
+      "exact_fee_sat": 151605
+    },
+    {
+      "fixture": "cap4_seed023_mixed.json",
+      "exact_fee_sat": 114112
+    },
+    {
+      "fixture": "cap4_seed023_star.json",
+      "exact_fee_sat": 126822
+    },
+    {
+      "fixture": "cap4_seed024_chain.json",
+      "exact_fee_sat": 119656
+    },
+    {
+      "fixture": "cap4_seed024_cpfp.json",
+      "exact_fee_sat": 122932
+    },
+    {
+      "fixture": "cap4_seed024_independent.json",
+      "exact_fee_sat": 148353
+    },
+    {
+      "fixture": "cap4_seed024_mixed.json",
+      "exact_fee_sat": 119656
+    },
+    {
+      "fixture": "cap4_seed024_star.json",
+      "exact_fee_sat": 119656
+    },
+    {
+      "fixture": "cap4_seed025_chain.json",
+      "exact_fee_sat": 130409
+    },
+    {
+      "fixture": "cap4_seed025_cpfp.json",
+      "exact_fee_sat": 147700
+    },
+    {
+      "fixture": "cap4_seed025_independent.json",
+      "exact_fee_sat": 166280
+    },
+    {
+      "fixture": "cap4_seed025_mixed.json",
+      "exact_fee_sat": 130409
+    },
+    {
+      "fixture": "cap4_seed025_star.json",
+      "exact_fee_sat": 130409
+    },
+    {
+      "fixture": "cap4_seed026_chain.json",
+      "exact_fee_sat": 119990
+    },
+    {
+      "fixture": "cap4_seed026_cpfp.json",
+      "exact_fee_sat": 119990
+    },
+    {
+      "fixture": "cap4_seed026_independent.json",
+      "exact_fee_sat": 147703
+    },
+    {
+      "fixture": "cap4_seed026_mixed.json",
+      "exact_fee_sat": 119990
+    },
+    {
+      "fixture": "cap4_seed026_star.json",
+      "exact_fee_sat": 119990
+    },
+    {
+      "fixture": "cap4_seed027_chain.json",
+      "exact_fee_sat": 119654
+    },
+    {
+      "fixture": "cap4_seed027_cpfp.json",
+      "exact_fee_sat": 119654
+    },
+    {
+      "fixture": "cap4_seed027_independent.json",
+      "exact_fee_sat": 142484
+    },
+    {
+      "fixture": "cap4_seed027_mixed.json",
+      "exact_fee_sat": 119654
+    },
+    {
+      "fixture": "cap4_seed027_star.json",
+      "exact_fee_sat": 119654
+    },
+    {
+      "fixture": "cap4_seed028_chain.json",
+      "exact_fee_sat": 118028
+    },
+    {
+      "fixture": "cap4_seed028_cpfp.json",
+      "exact_fee_sat": 118028
+    },
+    {
+      "fixture": "cap4_seed028_independent.json",
+      "exact_fee_sat": 144768
+    },
+    {
+      "fixture": "cap4_seed028_mixed.json",
+      "exact_fee_sat": 118028
+    },
+    {
+      "fixture": "cap4_seed028_star.json",
+      "exact_fee_sat": 118028
+    },
+    {
+      "fixture": "cap4_seed029_chain.json",
+      "exact_fee_sat": 130740
+    },
+    {
+      "fixture": "cap4_seed029_cpfp.json",
+      "exact_fee_sat": 130740
+    },
+    {
+      "fixture": "cap4_seed029_independent.json",
+      "exact_fee_sat": 156173
+    },
+    {
+      "fixture": "cap4_seed029_mixed.json",
+      "exact_fee_sat": 130740
+    },
+    {
+      "fixture": "cap4_seed029_star.json",
+      "exact_fee_sat": 130740
+    },
+    {
+      "fixture": "cap4_seed030_chain.json",
+      "exact_fee_sat": 118678
+    },
+    {
+      "fixture": "cap4_seed030_cpfp.json",
+      "exact_fee_sat": 118678
+    },
+    {
+      "fixture": "cap4_seed030_independent.json",
+      "exact_fee_sat": 144763
+    },
+    {
+      "fixture": "cap4_seed030_mixed.json",
+      "exact_fee_sat": 118678
+    },
+    {
+      "fixture": "cap4_seed030_star.json",
+      "exact_fee_sat": 118678
+    },
+    {
+      "fixture": "cap4_seed031_chain.json",
+      "exact_fee_sat": 115748
+    },
+    {
+      "fixture": "cap4_seed031_cpfp.json",
+      "exact_fee_sat": 119005
+    },
+    {
+      "fixture": "cap4_seed031_independent.json",
+      "exact_fee_sat": 147699
+    },
+    {
+      "fixture": "cap4_seed031_mixed.json",
+      "exact_fee_sat": 115748
+    },
+    {
+      "fixture": "cap4_seed031_star.json",
+      "exact_fee_sat": 119005
+    },
+    {
+      "fixture": "cap4_seed032_chain.json",
+      "exact_fee_sat": 125527
+    },
+    {
+      "fixture": "cap4_seed032_cpfp.json",
+      "exact_fee_sat": 125527
+    },
+    {
+      "fixture": "cap4_seed032_independent.json",
+      "exact_fee_sat": 154872
+    },
+    {
+      "fixture": "cap4_seed032_mixed.json",
+      "exact_fee_sat": 125527
+    },
+    {
+      "fixture": "cap4_seed032_star.json",
+      "exact_fee_sat": 125527
+    },
+    {
+      "fixture": "cap4_seed033_chain.json",
+      "exact_fee_sat": 145098
+    },
+    {
+      "fixture": "cap4_seed033_cpfp.json",
+      "exact_fee_sat": 145098
+    },
+    {
+      "fixture": "cap4_seed033_independent.json",
+      "exact_fee_sat": 167263
+    },
+    {
+      "fixture": "cap4_seed033_mixed.json",
+      "exact_fee_sat": 145098
+    },
+    {
+      "fixture": "cap4_seed033_star.json",
+      "exact_fee_sat": 132050
+    },
+    {
+      "fixture": "cap4_seed034_chain.json",
+      "exact_fee_sat": 132696
+    },
+    {
+      "fixture": "cap4_seed034_cpfp.json",
+      "exact_fee_sat": 135635
+    },
+    {
+      "fixture": "cap4_seed034_independent.json",
+      "exact_fee_sat": 167908
+    },
+    {
+      "fixture": "cap4_seed034_mixed.json",
+      "exact_fee_sat": 132696
+    },
+    {
+      "fixture": "cap4_seed034_star.json",
+      "exact_fee_sat": 132696
+    },
+    {
+      "fixture": "cap4_seed035_chain.json",
+      "exact_fee_sat": 126171
+    },
+    {
+      "fixture": "cap4_seed035_cpfp.json",
+      "exact_fee_sat": 126171
+    },
+    {
+      "fixture": "cap4_seed035_independent.json",
+      "exact_fee_sat": 157471
+    },
+    {
+      "fixture": "cap4_seed035_mixed.json",
+      "exact_fee_sat": 126171
+    },
+    {
+      "fixture": "cap4_seed035_star.json",
+      "exact_fee_sat": 126171
+    },
+    {
+      "fixture": "cap4_seed036_chain.json",
+      "exact_fee_sat": 148027
+    },
+    {
+      "fixture": "cap4_seed036_cpfp.json",
+      "exact_fee_sat": 148350
+    },
+    {
+      "fixture": "cap4_seed036_independent.json",
+      "exact_fee_sat": 172146
+    },
+    {
+      "fixture": "cap4_seed036_mixed.json",
+      "exact_fee_sat": 148027
+    },
+    {
+      "fixture": "cap4_seed036_star.json",
+      "exact_fee_sat": 135300
+    },
+    {
+      "fixture": "cap4_seed037_chain.json",
+      "exact_fee_sat": 130748
+    },
+    {
+      "fixture": "cap4_seed037_cpfp.json",
+      "exact_fee_sat": 130748
+    },
+    {
+      "fixture": "cap4_seed037_independent.json",
+      "exact_fee_sat": 160411
+    },
+    {
+      "fixture": "cap4_seed037_mixed.json",
+      "exact_fee_sat": 130748
+    },
+    {
+      "fixture": "cap4_seed037_star.json",
+      "exact_fee_sat": 129109
+    },
+    {
+      "fixture": "cap4_seed038_chain.json",
+      "exact_fee_sat": 112809
+    },
+    {
+      "fixture": "cap4_seed038_cpfp.json",
+      "exact_fee_sat": 115086
+    },
+    {
+      "fixture": "cap4_seed038_independent.json",
+      "exact_fee_sat": 144434
+    },
+    {
+      "fixture": "cap4_seed038_mixed.json",
+      "exact_fee_sat": 112809
+    },
+    {
+      "fixture": "cap4_seed038_star.json",
+      "exact_fee_sat": 115086
+    },
+    {
+      "fixture": "cap4_seed039_chain.json",
+      "exact_fee_sat": 117705
+    },
+    {
+      "fixture": "cap4_seed039_cpfp.json",
+      "exact_fee_sat": 117705
+    },
+    {
+      "fixture": "cap4_seed039_independent.json",
+      "exact_fee_sat": 144773
+    },
+    {
+      "fixture": "cap4_seed039_mixed.json",
+      "exact_fee_sat": 117705
+    },
+    {
+      "fixture": "cap4_seed039_star.json",
+      "exact_fee_sat": 117705
+    },
+    {
+      "fixture": "cap6_seed000_chain.json",
+      "exact_fee_sat": 194323
+    },
+    {
+      "fixture": "cap6_seed000_cpfp.json",
+      "exact_fee_sat": 194323
+    },
+    {
+      "fixture": "cap6_seed000_independent.json",
+      "exact_fee_sat": 215846
+    },
+    {
+      "fixture": "cap6_seed000_mixed.json",
+      "exact_fee_sat": 194323
+    },
+    {
+      "fixture": "cap6_seed000_star.json",
+      "exact_fee_sat": 194323
+    },
+    {
+      "fixture": "cap6_seed001_chain.json",
+      "exact_fee_sat": 182581
+    },
+    {
+      "fixture": "cap6_seed001_cpfp.json",
+      "exact_fee_sat": 182581
+    },
+    {
+      "fixture": "cap6_seed001_independent.json",
+      "exact_fee_sat": 203453
+    },
+    {
+      "fixture": "cap6_seed001_mixed.json",
+      "exact_fee_sat": 182581
+    },
+    {
+      "fixture": "cap6_seed001_star.json",
+      "exact_fee_sat": 182581
+    },
+    {
+      "fixture": "cap6_seed002_chain.json",
+      "exact_fee_sat": 190093
+    },
+    {
+      "fixture": "cap6_seed002_cpfp.json",
+      "exact_fee_sat": 190093
+    },
+    {
+      "fixture": "cap6_seed002_independent.json",
+      "exact_fee_sat": 218139
+    },
+    {
+      "fixture": "cap6_seed002_mixed.json",
+      "exact_fee_sat": 190093
+    },
+    {
+      "fixture": "cap6_seed002_star.json",
+      "exact_fee_sat": 190093
+    },
+    {
+      "fixture": "cap6_seed003_chain.json",
+      "exact_fee_sat": 169549
+    },
+    {
+      "fixture": "cap6_seed003_cpfp.json",
+      "exact_fee_sat": 169549
+    },
+    {
+      "fixture": "cap6_seed003_independent.json",
+      "exact_fee_sat": 192371
+    },
+    {
+      "fixture": "cap6_seed003_mixed.json",
+      "exact_fee_sat": 169549
+    },
+    {
+      "fixture": "cap6_seed003_star.json",
+      "exact_fee_sat": 169549
+    },
+    {
+      "fixture": "cap6_seed004_chain.json",
+      "exact_fee_sat": 133356
+    },
+    {
+      "fixture": "cap6_seed004_cpfp.json",
+      "exact_fee_sat": 145752
+    },
+    {
+      "fixture": "cap6_seed004_independent.json",
+      "exact_fee_sat": 162382
+    },
+    {
+      "fixture": "cap6_seed004_mixed.json",
+      "exact_fee_sat": 133356
+    },
+    {
+      "fixture": "cap6_seed004_star.json",
+      "exact_fee_sat": 145752
+    },
+    {
+      "fixture": "cap6_seed005_chain.json",
+      "exact_fee_sat": 193665
+    },
+    {
+      "fixture": "cap6_seed005_cpfp.json",
+      "exact_fee_sat": 196610
+    },
+    {
+      "fixture": "cap6_seed005_independent.json",
+      "exact_fee_sat": 222684
+    },
+    {
+      "fixture": "cap6_seed005_mixed.json",
+      "exact_fee_sat": 193665
+    },
+    {
+      "fixture": "cap6_seed005_star.json",
+      "exact_fee_sat": 193665
+    },
+    {
+      "fixture": "cap6_seed006_chain.json",
+      "exact_fee_sat": 174765
+    },
+    {
+      "fixture": "cap6_seed006_cpfp.json",
+      "exact_fee_sat": 174765
+    },
+    {
+      "fixture": "cap6_seed006_independent.json",
+      "exact_fee_sat": 195307
+    },
+    {
+      "fixture": "cap6_seed006_mixed.json",
+      "exact_fee_sat": 174765
+    },
+    {
+      "fixture": "cap6_seed006_star.json",
+      "exact_fee_sat": 174765
+    },
+    {
+      "fixture": "cap6_seed007_chain.json",
+      "exact_fee_sat": 159110
+    },
+    {
+      "fixture": "cap6_seed007_cpfp.json",
+      "exact_fee_sat": 164983
+    },
+    {
+      "fixture": "cap6_seed007_independent.json",
+      "exact_fee_sat": 181611
+    },
+    {
+      "fixture": "cap6_seed007_mixed.json",
+      "exact_fee_sat": 159110
+    },
+    {
+      "fixture": "cap6_seed007_star.json",
+      "exact_fee_sat": 164983
+    },
+    {
+      "fixture": "cap6_seed008_chain.json",
+      "exact_fee_sat": 157161
+    },
+    {
+      "fixture": "cap6_seed008_cpfp.json",
+      "exact_fee_sat": 157161
+    },
+    {
+      "fixture": "cap6_seed008_independent.json",
+      "exact_fee_sat": 167602
+    },
+    {
+      "fixture": "cap6_seed008_mixed.json",
+      "exact_fee_sat": 157161
+    },
+    {
+      "fixture": "cap6_seed008_star.json",
+      "exact_fee_sat": 157161
+    },
+    {
+      "fixture": "cap6_seed009_chain.json",
+      "exact_fee_sat": 179987
+    },
+    {
+      "fixture": "cap6_seed009_cpfp.json",
+      "exact_fee_sat": 179987
+    },
+    {
+      "fixture": "cap6_seed009_independent.json",
+      "exact_fee_sat": 195637
+    },
+    {
+      "fixture": "cap6_seed009_mixed.json",
+      "exact_fee_sat": 179987
+    },
+    {
+      "fixture": "cap6_seed009_star.json",
+      "exact_fee_sat": 179987
+    },
+    {
+      "fixture": "cap6_seed010_chain.json",
+      "exact_fee_sat": 173794
+    },
+    {
+      "fixture": "cap6_seed010_cpfp.json",
+      "exact_fee_sat": 173794
+    },
+    {
+      "fixture": "cap6_seed010_independent.json",
+      "exact_fee_sat": 194009
+    },
+    {
+      "fixture": "cap6_seed010_mixed.json",
+      "exact_fee_sat": 173794
+    },
+    {
+      "fixture": "cap6_seed010_star.json",
+      "exact_fee_sat": 173794
+    },
+    {
+      "fixture": "cap6_seed011_chain.json",
+      "exact_fee_sat": 189101
+    },
+    {
+      "fixture": "cap6_seed011_cpfp.json",
+      "exact_fee_sat": 198232
+    },
+    {
+      "fixture": "cap6_seed011_independent.json",
+      "exact_fee_sat": 223016
+    },
+    {
+      "fixture": "cap6_seed011_mixed.json",
+      "exact_fee_sat": 189101
+    },
+    {
+      "fixture": "cap6_seed011_star.json",
+      "exact_fee_sat": 198232
+    },
+    {
+      "fixture": "cap6_seed012_chain.json",
+      "exact_fee_sat": 155848
+    },
+    {
+      "fixture": "cap6_seed012_cpfp.json",
+      "exact_fee_sat": 155848
+    },
+    {
+      "fixture": "cap6_seed012_independent.json",
+      "exact_fee_sat": 171829
+    },
+    {
+      "fixture": "cap6_seed012_mixed.json",
+      "exact_fee_sat": 155848
+    },
+    {
+      "fixture": "cap6_seed012_star.json",
+      "exact_fee_sat": 155848
+    },
+    {
+      "fixture": "cap6_seed013_chain.json",
+      "exact_fee_sat": 197573
+    },
+    {
+      "fixture": "cap6_seed013_cpfp.json",
+      "exact_fee_sat": 203128
+    },
+    {
+      "fixture": "cap6_seed013_independent.json",
+      "exact_fee_sat": 231155
+    },
+    {
+      "fixture": "cap6_seed013_mixed.json",
+      "exact_fee_sat": 197573
+    },
+    {
+      "fixture": "cap6_seed013_star.json",
+      "exact_fee_sat": 202465
+    },
+    {
+      "fixture": "cap6_seed014_chain.json",
+      "exact_fee_sat": 180955
+    },
+    {
+      "fixture": "cap6_seed014_cpfp.json",
+      "exact_fee_sat": 180955
+    },
+    {
+      "fixture": "cap6_seed014_independent.json",
+      "exact_fee_sat": 208343
+    },
+    {
+      "fixture": "cap6_seed014_mixed.json",
+      "exact_fee_sat": 180955
+    },
+    {
+      "fixture": "cap6_seed014_star.json",
+      "exact_fee_sat": 180955
+    },
+    {
+      "fixture": "cap6_seed015_chain.json",
+      "exact_fee_sat": 189436
+    },
+    {
+      "fixture": "cap6_seed015_cpfp.json",
+      "exact_fee_sat": 198565
+    },
+    {
+      "fixture": "cap6_seed015_independent.json",
+      "exact_fee_sat": 220409
+    },
+    {
+      "fixture": "cap6_seed015_mixed.json",
+      "exact_fee_sat": 189436
+    },
+    {
+      "fixture": "cap6_seed015_star.json",
+      "exact_fee_sat": 198565
+    },
+    {
+      "fixture": "cap6_seed016_chain.json",
+      "exact_fee_sat": 172813
+    },
+    {
+      "fixture": "cap6_seed016_cpfp.json",
+      "exact_fee_sat": 172813
+    },
+    {
+      "fixture": "cap6_seed016_independent.json",
+      "exact_fee_sat": 191727
+    },
+    {
+      "fixture": "cap6_seed016_mixed.json",
+      "exact_fee_sat": 172813
+    },
+    {
+      "fixture": "cap6_seed016_star.json",
+      "exact_fee_sat": 172813
+    },
+    {
+      "fixture": "cap6_seed017_chain.json",
+      "exact_fee_sat": 182914
+    },
+    {
+      "fixture": "cap6_seed017_cpfp.json",
+      "exact_fee_sat": 182914
+    },
+    {
+      "fixture": "cap6_seed017_independent.json",
+      "exact_fee_sat": 205743
+    },
+    {
+      "fixture": "cap6_seed017_mixed.json",
+      "exact_fee_sat": 182914
+    },
+    {
+      "fixture": "cap6_seed017_star.json",
+      "exact_fee_sat": 182914
+    },
+    {
+      "fixture": "cap6_seed018_chain.json",
+      "exact_fee_sat": 155203
+    },
+    {
+      "fixture": "cap6_seed018_cpfp.json",
+      "exact_fee_sat": 155203
+    },
+    {
+      "fixture": "cap6_seed018_independent.json",
+      "exact_fee_sat": 175425
+    },
+    {
+      "fixture": "cap6_seed018_mixed.json",
+      "exact_fee_sat": 155203
+    },
+    {
+      "fixture": "cap6_seed018_star.json",
+      "exact_fee_sat": 155203
+    },
+    {
+      "fixture": "cap6_seed019_chain.json",
+      "exact_fee_sat": 168236
+    },
+    {
+      "fixture": "cap6_seed019_cpfp.json",
+      "exact_fee_sat": 168236
+    },
+    {
+      "fixture": "cap6_seed019_independent.json",
+      "exact_fee_sat": 189758
+    },
+    {
+      "fixture": "cap6_seed019_mixed.json",
+      "exact_fee_sat": 168236
+    },
+    {
+      "fixture": "cap6_seed019_star.json",
+      "exact_fee_sat": 168236
+    },
+    {
+      "fixture": "cap6_seed020_chain.json",
+      "exact_fee_sat": 188123
+    },
+    {
+      "fixture": "cap6_seed020_cpfp.json",
+      "exact_fee_sat": 196610
+    },
+    {
+      "fixture": "cap6_seed020_independent.json",
+      "exact_fee_sat": 220401
+    },
+    {
+      "fixture": "cap6_seed020_mixed.json",
+      "exact_fee_sat": 188123
+    },
+    {
+      "fixture": "cap6_seed020_star.json",
+      "exact_fee_sat": 191711
+    },
+    {
+      "fixture": "cap6_seed021_chain.json",
+      "exact_fee_sat": 185847
+    },
+    {
+      "fixture": "cap6_seed021_cpfp.json",
+      "exact_fee_sat": 185847
+    },
+    {
+      "fixture": "cap6_seed021_independent.json",
+      "exact_fee_sat": 212582
+    },
+    {
+      "fixture": "cap6_seed021_mixed.json",
+      "exact_fee_sat": 185847
+    },
+    {
+      "fixture": "cap6_seed021_star.json",
+      "exact_fee_sat": 185847
+    },
+    {
+      "fixture": "cap6_seed022_chain.json",
+      "exact_fee_sat": 179338
+    },
+    {
+      "fixture": "cap6_seed022_cpfp.json",
+      "exact_fee_sat": 179338
+    },
+    {
+      "fixture": "cap6_seed022_independent.json",
+      "exact_fee_sat": 205096
+    },
+    {
+      "fixture": "cap6_seed022_mixed.json",
+      "exact_fee_sat": 179338
+    },
+    {
+      "fixture": "cap6_seed022_star.json",
+      "exact_fee_sat": 179338
+    },
+    {
+      "fixture": "cap6_seed023_chain.json",
+      "exact_fee_sat": 164647
+    },
+    {
+      "fixture": "cap6_seed023_cpfp.json",
+      "exact_fee_sat": 174436
+    },
+    {
+      "fixture": "cap6_seed023_independent.json",
+      "exact_fee_sat": 192375
+    },
+    {
+      "fixture": "cap6_seed023_mixed.json",
+      "exact_fee_sat": 164647
+    },
+    {
+      "fixture": "cap6_seed023_star.json",
+      "exact_fee_sat": 174436
+    },
+    {
+      "fixture": "cap6_seed024_chain.json",
+      "exact_fee_sat": 177049
+    },
+    {
+      "fixture": "cap6_seed024_cpfp.json",
+      "exact_fee_sat": 177049
+    },
+    {
+      "fixture": "cap6_seed024_independent.json",
+      "exact_fee_sat": 201502
+    },
+    {
+      "fixture": "cap6_seed024_mixed.json",
+      "exact_fee_sat": 177049
+    },
+    {
+      "fixture": "cap6_seed024_star.json",
+      "exact_fee_sat": 177049
+    },
+    {
+      "fixture": "cap6_seed025_chain.json",
+      "exact_fee_sat": 202143
+    },
+    {
+      "fixture": "cap6_seed025_cpfp.json",
+      "exact_fee_sat": 202143
+    },
+    {
+      "fixture": "cap6_seed025_independent.json",
+      "exact_fee_sat": 228883
+    },
+    {
+      "fixture": "cap6_seed025_mixed.json",
+      "exact_fee_sat": 202143
+    },
+    {
+      "fixture": "cap6_seed025_star.json",
+      "exact_fee_sat": 202143
+    },
+    {
+      "fixture": "cap6_seed026_chain.json",
+      "exact_fee_sat": 168577
+    },
+    {
+      "fixture": "cap6_seed026_cpfp.json",
+      "exact_fee_sat": 173463
+    },
+    {
+      "fixture": "cap6_seed026_independent.json",
+      "exact_fee_sat": 196290
+    },
+    {
+      "fixture": "cap6_seed026_mixed.json",
+      "exact_fee_sat": 168577
+    },
+    {
+      "fixture": "cap6_seed026_star.json",
+      "exact_fee_sat": 173463
+    },
+    {
+      "fixture": "cap6_seed027_chain.json",
+      "exact_fee_sat": 157165
+    },
+    {
+      "fixture": "cap6_seed027_cpfp.json",
+      "exact_fee_sat": 157165
+    },
+    {
+      "fixture": "cap6_seed027_independent.json",
+      "exact_fee_sat": 169231
+    },
+    {
+      "fixture": "cap6_seed027_mixed.json",
+      "exact_fee_sat": 157165
+    },
+    {
+      "fixture": "cap6_seed027_star.json",
+      "exact_fee_sat": 157165
+    },
+    {
+      "fixture": "cap6_seed028_chain.json",
+      "exact_fee_sat": 170526
+    },
+    {
+      "fixture": "cap6_seed028_cpfp.json",
+      "exact_fee_sat": 170526
+    },
+    {
+      "fixture": "cap6_seed028_independent.json",
+      "exact_fee_sat": 193349
+    },
+    {
+      "fixture": "cap6_seed028_mixed.json",
+      "exact_fee_sat": 170526
+    },
+    {
+      "fixture": "cap6_seed028_star.json",
+      "exact_fee_sat": 170526
+    },
+    {
+      "fixture": "cap6_seed029_chain.json",
+      "exact_fee_sat": 178349
+    },
+    {
+      "fixture": "cap6_seed029_cpfp.json",
+      "exact_fee_sat": 181930
+    },
+    {
+      "fixture": "cap6_seed029_independent.json",
+      "exact_fee_sat": 203454
+    },
+    {
+      "fixture": "cap6_seed029_mixed.json",
+      "exact_fee_sat": 178349
+    },
+    {
+      "fixture": "cap6_seed029_star.json",
+      "exact_fee_sat": 181930
+    },
+    {
+      "fixture": "cap6_seed030_chain.json",
+      "exact_fee_sat": 162052
+    },
+    {
+      "fixture": "cap6_seed030_cpfp.json",
+      "exact_fee_sat": 171172
+    },
+    {
+      "fixture": "cap6_seed030_independent.json",
+      "exact_fee_sat": 187809
+    },
+    {
+      "fixture": "cap6_seed030_mixed.json",
+      "exact_fee_sat": 162052
+    },
+    {
+      "fixture": "cap6_seed030_star.json",
+      "exact_fee_sat": 171172
+    },
+    {
+      "fixture": "cap6_seed031_chain.json",
+      "exact_fee_sat": 155533
+    },
+    {
+      "fixture": "cap6_seed031_cpfp.json",
+      "exact_fee_sat": 170854
+    },
+    {
+      "fixture": "cap6_seed031_independent.json",
+      "exact_fee_sat": 187484
+    },
+    {
+      "fixture": "cap6_seed031_mixed.json",
+      "exact_fee_sat": 155533
+    },
+    {
+      "fixture": "cap6_seed031_star.json",
+      "exact_fee_sat": 170854
+    },
+    {
+      "fixture": "cap6_seed032_chain.json",
+      "exact_fee_sat": 176396
+    },
+    {
+      "fixture": "cap6_seed032_cpfp.json",
+      "exact_fee_sat": 176396
+    },
+    {
+      "fixture": "cap6_seed032_independent.json",
+      "exact_fee_sat": 189114
+    },
+    {
+      "fixture": "cap6_seed032_mixed.json",
+      "exact_fee_sat": 176396
+    },
+    {
+      "fixture": "cap6_seed032_star.json",
+      "exact_fee_sat": 176396
+    },
+    {
+      "fixture": "cap6_seed033_chain.json",
+      "exact_fee_sat": 202149
+    },
+    {
+      "fixture": "cap6_seed033_cpfp.json",
+      "exact_fee_sat": 202149
+    },
+    {
+      "fixture": "cap6_seed033_independent.json",
+      "exact_fee_sat": 229541
+    },
+    {
+      "fixture": "cap6_seed033_mixed.json",
+      "exact_fee_sat": 202149
+    },
+    {
+      "fixture": "cap6_seed033_star.json",
+      "exact_fee_sat": 202149
+    },
+    {
+      "fixture": "cap6_seed034_chain.json",
+      "exact_fee_sat": 193012
+    },
+    {
+      "fixture": "cap6_seed034_cpfp.json",
+      "exact_fee_sat": 193012
+    },
+    {
+      "fixture": "cap6_seed034_independent.json",
+      "exact_fee_sat": 210953
+    },
+    {
+      "fixture": "cap6_seed034_mixed.json",
+      "exact_fee_sat": 193012
+    },
+    {
+      "fixture": "cap6_seed034_star.json",
+      "exact_fee_sat": 193012
+    },
+    {
+      "fixture": "cap6_seed035_chain.json",
+      "exact_fee_sat": 181932
+    },
+    {
+      "fixture": "cap6_seed035_cpfp.json",
+      "exact_fee_sat": 181932
+    },
+    {
+      "fixture": "cap6_seed035_independent.json",
+      "exact_fee_sat": 200197
+    },
+    {
+      "fixture": "cap6_seed035_mixed.json",
+      "exact_fee_sat": 181932
+    },
+    {
+      "fixture": "cap6_seed035_star.json",
+      "exact_fee_sat": 181932
+    },
+    {
+      "fixture": "cap6_seed036_chain.json",
+      "exact_fee_sat": 206056
+    },
+    {
+      "fixture": "cap6_seed036_cpfp.json",
+      "exact_fee_sat": 206379
+    },
+    {
+      "fixture": "cap6_seed036_independent.json",
+      "exact_fee_sat": 239637
+    },
+    {
+      "fixture": "cap6_seed036_mixed.json",
+      "exact_fee_sat": 206056
+    },
+    {
+      "fixture": "cap6_seed036_star.json",
+      "exact_fee_sat": 206379
+    },
+    {
+      "fixture": "cap6_seed037_chain.json",
+      "exact_fee_sat": 189103
+    },
+    {
+      "fixture": "cap6_seed037_cpfp.json",
+      "exact_fee_sat": 189103
+    },
+    {
+      "fixture": "cap6_seed037_independent.json",
+      "exact_fee_sat": 215843
+    },
+    {
+      "fixture": "cap6_seed037_mixed.json",
+      "exact_fee_sat": 189103
+    },
+    {
+      "fixture": "cap6_seed037_star.json",
+      "exact_fee_sat": 189103
+    },
+    {
+      "fixture": "cap6_seed038_chain.json",
+      "exact_fee_sat": 163018
+    },
+    {
+      "fixture": "cap6_seed038_cpfp.json",
+      "exact_fee_sat": 164655
+    },
+    {
+      "fixture": "cap6_seed038_independent.json",
+      "exact_fee_sat": 182587
+    },
+    {
+      "fixture": "cap6_seed038_mixed.json",
+      "exact_fee_sat": 163018
+    },
+    {
+      "fixture": "cap6_seed038_star.json",
+      "exact_fee_sat": 164655
+    },
+    {
+      "fixture": "cap6_seed039_chain.json",
+      "exact_fee_sat": 169231
+    },
+    {
+      "fixture": "cap6_seed039_cpfp.json",
+      "exact_fee_sat": 169231
+    },
+    {
+      "fixture": "cap6_seed039_independent.json",
+      "exact_fee_sat": 185863
+    },
+    {
+      "fixture": "cap6_seed039_mixed.json",
+      "exact_fee_sat": 169231
+    },
+    {
+      "fixture": "cap6_seed039_star.json",
+      "exact_fee_sat": 169231
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "unaltered_passed": true,
+  "mutations": 8,
+  "cases": {
+    "arrival_time": {
+      "rejected": true,
+      "reason": "declared arrival treatment mismatch"
+    },
+    "transaction_weight": {
+      "rejected": true,
+      "reason": "transaction weight mismatch"
+    },
+    "fee_assignment": {
+      "rejected": true,
+      "reason": "fee seed mismatch"
+    },
+    "topology_label": {
+      "rejected": true,
+      "reason": "declared topology mismatch"
+    },
+    "waiting_clock": {
+      "rejected": true,
+      "reason": "waiting clock mismatch"
+    },
+    "early_followup": {
+      "rejected": true,
+      "reason": "incomplete follow-up"
+    },
+    "missing_selector": {
+      "rejected": true,
+      "reason": "selector inventory mismatch"
+    },
+    "block_schedule": {
+      "rejected": true,
+      "reason": "nonconsecutive block schedule"
+    }
+  },
+  "fixture": "robustness_cap4_heterogeneous_children_late_seed004_chain.json",
+  "scope": "Known corruptions in the new size/arrival evidence; not complete error coverage"
+}

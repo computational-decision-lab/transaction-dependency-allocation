@@ -1,0 +1,341 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Executed dependency v2 matched 12-transaction fixture",
+  "type": "object",
+  "properties": {
+    "cleanup_block": {
+      "type": "string",
+      "pattern": "^(?:[0-9a-f]{2})+$"
+    },
+    "clusters": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "fee_assignment": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 12,
+      "maxItems": 12
+    },
+    "feerate_diagram": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "funding_transactions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^(?:[0-9a-f]{2})+$"
+      }
+    },
+    "graph": {
+      "type": "object"
+    },
+    "matching": {
+      "type": "object",
+      "properties": {
+        "passed": {
+          "const": true
+        },
+        "label_fee_weight_vsize_arrival_equal": {
+          "const": true
+        },
+        "capacity": {
+          "enum": [
+            2,
+            4,
+            6,
+            12
+          ]
+        }
+      },
+      "required": [
+        "passed",
+        "label_fee_weight_vsize_arrival_equal",
+        "capacity"
+      ],
+      "additionalProperties": false
+    },
+    "mempool_sequence": {
+      "type": "object",
+      "properties": {
+        "txids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "minItems": 12,
+          "maxItems": 12,
+          "uniqueItems": true
+        },
+        "mempool_sequence": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "txids",
+        "mempool_sequence"
+      ],
+      "additionalProperties": false
+    },
+    "node_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "raw_mempool": {
+      "type": "object"
+    },
+    "rejections": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "maxItems": 0
+    },
+    "seed": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 39
+    },
+    "topology": {
+      "enum": [
+        "independent",
+        "cpfp",
+        "chain",
+        "star",
+        "mixed"
+      ]
+    },
+    "trajectories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "blocks": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            },
+            "minItems": 1,
+            "maxItems": 8
+          },
+          "budget": {
+            "enum": [
+              2608,
+              5216,
+              7824,
+              15648
+            ]
+          },
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "cause": {
+                  "enum": [
+                    "confirmed",
+                    "replaced",
+                    "expired",
+                    "evicted",
+                    "removed_other",
+                    "removed_unknown",
+                    "censored"
+                  ]
+                },
+                "label": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "time": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 4800
+                },
+                "txid": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                }
+              },
+              "required": [
+                "cause",
+                "label",
+                "time",
+                "txid"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 12,
+            "maxItems": 12
+          },
+          "horizon_seconds": {
+            "const": 4800
+          },
+          "outcomes": {
+            "type": "object"
+          },
+          "policy": {
+            "enum": [
+              "scalar",
+              "ancestor",
+              "cluster"
+            ]
+          },
+          "unrelated_outcomes": {
+            "type": "object"
+          }
+        },
+        "required": [
+          "blocks",
+          "budget",
+          "events",
+          "horizon_seconds",
+          "outcomes",
+          "policy",
+          "unrelated_outcomes"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "transactions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "acceptance": {
+            "type": "object"
+          },
+          "arrival_index": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "fee_sat": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "label": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 11
+          },
+          "outputs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "value_sat": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "script": {
+                  "type": "string",
+                  "pattern": "^(?:[0-9a-f]{2})+$"
+                }
+              },
+              "required": [
+                "value_sat",
+                "script"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 6,
+            "maxItems": 6
+          },
+          "parents": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "uniqueItems": true,
+            "maxItems": 1
+          },
+          "prevout": {
+            "type": "object",
+            "properties": {
+              "txid": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "vout": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "amount": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            },
+            "required": [
+              "txid",
+              "vout",
+              "amount"
+            ],
+            "additionalProperties": false
+          },
+          "raw": {
+            "type": "string",
+            "pattern": "^(?:[0-9a-f]{2})+$"
+          },
+          "txid": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "vsize": {
+            "const": 326
+          },
+          "weight": {
+            "const": 1304
+          }
+        },
+        "required": [
+          "acceptance",
+          "arrival_index",
+          "fee_sat",
+          "label",
+          "outputs",
+          "parents",
+          "prevout",
+          "raw",
+          "txid",
+          "vsize",
+          "weight"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 12,
+      "maxItems": 12
+    }
+  },
+  "required": [
+    "cleanup_block",
+    "clusters",
+    "fee_assignment",
+    "feerate_diagram",
+    "funding_transactions",
+    "graph",
+    "matching",
+    "mempool_sequence",
+    "node_flags",
+    "raw_mempool",
+    "rejections",
+    "seed",
+    "topology",
+    "trajectories",
+    "transactions"
+  ],
+  "additionalProperties": false
+}

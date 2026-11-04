@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "comparisons": 800,
+  "manifest": "core_v30_comparison_20261104/verification.json",
+  "source_checks": [
+    "Both versions reject reserved + candidate weight >= maximum; maximum=2001+budget",
+    "v30.2 ancestor package size is scaled by four; all archived original weights divisible by four",
+    "Same funding blocks, signed transactions, labels, fees, network-disabled node and capacity",
+    "Other version changes are not isolated; only initial template selection is measured"
+  ],
+  "source_files": {
+    "v30.2_miner.cpp": "9418c5ebace132dc3179001bacaf1fa069fc02a57a17c7e34ffae3edfb1f4356",
+    "v31.0_miner.cpp": "7b970aef15594eb6102b1c4401257335a3be455e81aa523dcb0b7898b1445950",
+    "release_manifest.json": "a29bf5f2d36eead4de5c742809e64bbd27013bdd74b23bb291d1038ef845b6e5"
+  }
+}

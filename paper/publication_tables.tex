@@ -1,0 +1,17 @@
+% Shared table typography; no numerical transformations or font scaling.
+% Venue classes retain control of captions and manuscript typography.
+\usepackage{array,booktabs,tabularx,siunitx}
+\sisetup{detect-all,input-ignore={,},group-digits=integer,
+  group-separator={,},group-minimum-digits=4}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\pubtable}{\small\centering
+  \setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.16}}
+\newcommand{\CI}[2]{\ensuremath{[\num{#1},\,\num{#2}]}}
+\newcommand{\estcell}[3]{\shortstack[c]{\num{#1}\\{\footnotesize\CI{#2}{#3}}}}
+\newcommand{\thead}[1]{\shortstack[c]{#1}}
+\makeatletter
+% Expand before alignment starts, so a generated file may begin with a group row.
+\newcommand{\tablerows}[1]{\@@input #1 }
+\makeatother
+\newcommand{\tablenote}[1]{\par\smallskip
+  \begin{minipage}{\linewidth}\footnotesize\raggedright #1\end{minipage}}

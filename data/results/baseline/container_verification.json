@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "selector_trajectories": 2400,
+  "numerical_rows_exact": true,
+  "image": "sha256:ff687d6c399950d86e485adafb3382c5c1b05714ce14380cb6abf3e67ef4e348",
+  "network": "none",
+  "source_mount": "read-only",
+  "qualification": "Independent raw-artifact audit in pinned Python container; same audit source, no generator or wallet",
+  "paired_analysis_summary_exact": true
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/powstudy/audit-certificate-v1.json",
+  "title": "Protocol-aware simulator audit certificate",
+  "type": "object",
+  "required": [
+    "certificate_version",
+    "audit_timestamp",
+    "simulator_identity",
+    "protocol_contract",
+    "arithmetic_tests",
+    "mutation_tests",
+    "event_ledger",
+    "kernel_replay",
+    "accounting_tests",
+    "data_ingestion",
+    "reproducibility",
+    "scope",
+    "independent_replay"
+  ],
+  "properties": {
+    "certificate_version": {"type": "string", "const": "1.1.0"},
+    "audit_timestamp": {"type": "string", "format": "date-time"},
+    "simulator_identity": {
+      "type": "object",
+      "required": ["name", "source_sha256"],
+      "properties": {
+        "name": {"type": "string"},
+        "source_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "python_version": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "protocol_contract": {
+      "type": "object",
+      "required": ["state_variable", "reciprocal_state", "target_span_seconds"],
+      "properties": {
+        "state_variable": {"const": "target"},
+        "reciprocal_state": {"const": "ease"},
+        "target_span_seconds": {"type": "integer", "minimum": 1},
+        "target_spacing_seconds": {"type": "integer", "minimum": 1},
+        "adjustment_interval_blocks": {"type": "integer", "minimum": 1},
+        "lower_factor": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+        "upper_factor": {"type": "number", "minimum": 1}
+      },
+      "additionalProperties": true
+    },
+    "arithmetic_tests": {"type": "object", "required": ["all_pass"], "additionalProperties": true},
+    "mutation_tests": {
+      "type": "object",
+      "required": ["faults_injected", "faults_rejected", "all_faults_rejected"],
+      "properties": {
+        "faults_injected": {"type": "integer", "minimum": 1},
+        "faults_rejected": {"type": "integer", "minimum": 0},
+        "all_faults_rejected": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    },
+    "event_ledger": {
+      "type": "object",
+      "required": ["schema_version", "columns", "rows", "all_pass"],
+      "properties": {
+        "schema_version": {"type": "string", "const": "1.0"},
+        "columns": {"type": "integer", "minimum": 1},
+        "rows": {"type": "integer", "minimum": 1},
+        "all_pass": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    },
+    "kernel_replay": {"type": "object", "required": ["all_agree"], "additionalProperties": true},
+    "accounting_tests": {"type": "object", "required": ["all_pass"], "additionalProperties": true},
+    "independent_replay": {
+      "type": "object",
+      "required": ["artifact", "artifact_sha256", "replay_program", "simulator_imported_by_verifier", "all_pass"],
+      "properties": {
+        "artifact": {"type": "string"},
+        "artifact_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "replay_program": {"type": "string"},
+        "simulator_imported_by_verifier": {"const": false},
+        "all_pass": {"type": "boolean"},
+        "checks": {"type": "object"}
+      },
+      "additionalProperties": true
+    },
+    "data_ingestion": {"type": "object", "required": ["source", "interpretation"], "additionalProperties": true},
+    "reproducibility": {"type": "object", "required": ["source_files", "input_hash"], "additionalProperties": true},
+    "scope": {"type": "object", "required": ["excluded"], "additionalProperties": true}
+  },
+  "additionalProperties": false
+}

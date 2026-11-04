@@ -1,0 +1,6254 @@
+{
+  "arrival_rule": "arrivals immediately after prior block; latency from own arrival",
+  "binary_sha256": "6f231b4c58f5a152774c981e2d3dee81fce6f08c9e81643435321b72e670ffb6",
+  "classification": "exploratory_followup",
+  "created_unix": 1793723408.3870142,
+  "fee_matching": "label fees fixed across size, arrival, topology and selector treatments",
+  "horizon": "4800 seconds per transaction; extra calendar block for late arrivals",
+  "jobs": [
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 4,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "children_late",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 0,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 1,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 2,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 3,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 4,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 5,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 6,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 7,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 8,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "cpfp"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "two_batches",
+      "capacity": 6,
+      "family": "robustness",
+      "seed": 9,
+      "size_mode": "heterogeneous",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 40,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 40,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 40,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 41,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 41,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 41,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 42,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 42,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 42,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 43,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 43,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 43,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 44,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 44,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 44,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 45,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 45,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 45,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 46,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 46,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 46,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 47,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 47,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 47,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 48,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 48,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 48,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 49,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 49,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 49,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 50,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 50,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 50,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 51,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 51,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 51,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 52,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 52,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 52,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 53,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 53,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 53,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 54,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 54,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 54,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 55,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 55,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 55,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 56,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 56,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 56,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 57,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 57,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 57,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 58,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 58,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 58,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 59,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 59,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 59,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 60,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 60,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 60,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 61,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 61,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 61,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 62,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 62,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 62,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 63,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 63,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 63,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 64,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 64,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 64,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 65,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 65,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 65,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 66,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 66,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 66,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 67,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 67,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 67,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 68,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 68,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 68,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 69,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 69,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 69,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 70,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 70,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 70,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 71,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 71,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 71,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 72,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 72,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 72,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 73,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 73,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 73,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 74,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 74,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 74,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 75,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 75,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 75,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 76,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 76,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 76,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 77,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 77,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 77,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 78,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 78,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 78,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 79,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 79,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 79,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 80,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 80,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 80,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 81,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 81,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 81,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 82,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 82,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 82,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 83,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 83,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 83,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 84,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 84,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 84,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 85,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 85,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 85,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 86,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 86,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 86,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 87,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 87,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 87,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 88,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 88,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 88,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 89,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 89,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 89,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 90,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 90,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 90,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 91,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 91,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 91,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 92,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 92,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 92,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 93,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 93,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 93,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 94,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 94,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 94,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 95,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 95,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 95,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 96,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 96,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 96,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 97,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 97,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 97,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 98,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 98,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 98,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 99,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 99,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 4,
+      "family": "precision",
+      "seed": 99,
+      "size_mode": "equal",
+      "topology": "star"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 40,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 40,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 41,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 41,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 42,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 42,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 43,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 43,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 44,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 44,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 45,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 45,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 46,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 46,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 47,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 47,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 48,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 48,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 49,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 49,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 50,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 50,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 51,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 51,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 52,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 52,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 53,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 53,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 54,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 54,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 55,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 55,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 56,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 56,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 57,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 57,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 58,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 58,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 59,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 59,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 60,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 60,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 61,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 61,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 62,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 62,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 63,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 63,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 64,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 64,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 65,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 65,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 66,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 66,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 67,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 67,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 68,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 68,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 69,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 69,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 70,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 70,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 71,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 71,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 72,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 72,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 73,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 73,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 74,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 74,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 75,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 75,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 76,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 76,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 77,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 77,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 78,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 78,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 79,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 79,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 80,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 80,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 81,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 81,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 82,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 82,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 83,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 83,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 84,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 84,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 85,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 85,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 86,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 86,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 87,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 87,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 88,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 88,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 89,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 89,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 90,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 90,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 91,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 91,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 92,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 92,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 93,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 93,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 94,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 94,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 95,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 95,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 96,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 96,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 97,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 97,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 98,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 98,
+      "size_mode": "equal",
+      "topology": "chain"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 99,
+      "size_mode": "equal",
+      "topology": "independent"
+    },
+    {
+      "arrival_mode": "simultaneous",
+      "capacity": 6,
+      "family": "precision",
+      "seed": 99,
+      "size_mode": "equal",
+      "topology": "chain"
+    }
+  ],
+  "size_construction": "Taproot output count 6/13/28; padding data payload 0/14/21 bytes; exact vsize 326/652/1304",
+  "source_commit": "6574cb40869b96b9ffc79c19dc8f4e467d60f321",
+  "source_sha256": "6b671131a6e8176ab70013551e20ccdacc9d6a3fc08434e745c8c21d3ce058e3",
+  "status": "fixed_before_execution"
+}

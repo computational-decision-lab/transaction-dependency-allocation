@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/powstudy/dependency-replay-artifact-v1.json",
+  "title": "dependency event-ledger replay artifact",
+  "type": "object",
+  "required": [
+    "artifact_version",
+    "generated_at_utc",
+    "input_sha256",
+    "inputs",
+    "event_ledger_schema",
+    "event_ledger",
+    "reported"
+  ],
+  "properties": {
+    "artifact_version": {"type": "string", "const": "1.0.0"},
+    "generated_at_utc": {"type": "string", "format": "date-time"},
+    "input_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "inputs": {"type": "object"},
+    "event_ledger_schema": {
+      "type": "object",
+      "required": ["schema_version", "event_kinds", "columns"],
+      "properties": {
+        "schema_version": {"type": "string", "const": "1.0"},
+        "event_kinds": {"type": "object"},
+        "columns": {
+          "type": "array",
+          "prefixItems": [
+            {"type": "string", "const": "sequence", "x-column-index": 0},
+            {"type": "string", "const": "time_units", "x-column-index": 1},
+            {"type": "string", "const": "event_kind", "x-column-index": 2},
+            {"type": "string", "const": "day", "x-column-index": 3},
+            {"type": "string", "const": "active_hashrate", "x-column-index": 4},
+            {"type": "string", "const": "ease_before", "x-column-index": 5},
+            {"type": "string", "const": "ease_after", "x-column-index": 6},
+            {"type": "string", "const": "epoch_blocks", "x-column-index": 7},
+            {"type": "string", "const": "epoch_span_units", "x-column-index": 8},
+            {"type": "string", "const": "queue_mass", "x-column-index": 9},
+            {"type": "string", "const": "pending_fee_btc", "x-column-index": 10},
+            {"type": "string", "const": "arrived_fee_btc", "x-column-index": 11},
+            {"type": "string", "const": "served_fee_btc", "x-column-index": 12},
+            {"type": "string", "const": "expired_fee_btc", "x-column-index": 13},
+            {"type": "string", "const": "block_fee_btc", "x-column-index": 14},
+            {"type": "string", "const": "subsidy_btc", "x-column-index": 15},
+            {"type": "string", "const": "winner", "x-column-index": 16},
+            {"type": "string", "const": "action_0", "x-column-index": 17},
+            {"type": "string", "const": "action_1", "x-column-index": 18},
+            {"type": "string", "const": "action_2", "x-column-index": 19},
+            {"type": "string", "const": "action_3", "x-column-index": 20},
+            {"type": "string", "const": "action_4", "x-column-index": 21}
+          ],
+          "minItems": 22,
+          "maxItems": 22
+        }
+      },
+      "additionalProperties": true
+    },
+    "event_ledger": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {"type": "number", "x-column-index": 0},
+          {"type": "number", "x-column-index": 1},
+          {"type": "number", "x-column-index": 2},
+          {"type": "number", "x-column-index": 3},
+          {"type": "number", "x-column-index": 4},
+          {"type": "number", "x-column-index": 5},
+          {"type": "number", "x-column-index": 6},
+          {"type": "number", "x-column-index": 7},
+          {"type": "number", "x-column-index": 8},
+          {"type": "number", "x-column-index": 9},
+          {"type": "number", "x-column-index": 10},
+          {"type": "number", "x-column-index": 11},
+          {"type": "number", "x-column-index": 12},
+          {"type": "number", "x-column-index": 13},
+          {"type": "number", "x-column-index": 14},
+          {"type": "number", "x-column-index": 15},
+          {"type": "number", "x-column-index": 16},
+          {"type": "number", "x-column-index": 17},
+          {"type": "number", "x-column-index": 18},
+          {"type": "number", "x-column-index": 19},
+          {"type": "number", "x-column-index": 20},
+          {"type": "number", "x-column-index": 21}
+        ],
+        "minItems": 22,
+        "maxItems": 22
+      }
+    },
+    "reported": {
+      "type": "object",
+      "required": ["aggregate_ledger", "miners", "summary"],
+      "properties": {
+        "aggregate_ledger": {"type": "array"},
+        "miners": {"type": "array"},
+        "summary": {"type": "object"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

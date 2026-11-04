@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "fixtures": 800,
+  "schema_sha256": "520da3e0c8694c035387e116771c78d30962de941d8e26ae8d7dfd03b074674d",
+  "scope": "Draft-07 structural validation; raw-byte and design checks are separate"
+}
