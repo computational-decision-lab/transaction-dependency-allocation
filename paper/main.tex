@@ -13,7 +13,7 @@
 \ifdefined\AnonymousBuild
 \author{\IEEEauthorblockN{Anonymous submission}}
 \else
-\author{\IEEEauthorblockN{Anonymous submission}\thanks{Reproducibility materials: \protect\href{https://github.com/computational-decision-lab/transaction-dependency-allocation}{GitHub repository}; \protect\href{https://huggingface.co/buckets/computational-decision-lab/transaction-dependency-allocation}{dataset repository}.}}
+\author{\IEEEauthorblockN{Anonymous submission}\thanks{Public code and compact results: \protect\href{https://github.com/computational-decision-lab/transaction-dependency-allocation}{GitHub repository}; public data index: \protect\href{https://huggingface.co/buckets/computational-decision-lab/transaction-dependency-allocation}{Hugging Face bucket}.}}
 \fi
 \begin{document}
 \maketitle
@@ -220,7 +220,12 @@ Independent replay establishes agreement with the specified binaries on captured
 Dependency-aware selection reorders transaction confirmations without necessarily altering aggregate mean delay or Gini, and the direction of this redistribution depends on the benchmark selector, transaction sizes, and arrival conditions. This evidence comes from single-node Regtest runs with twelve synthetic transactions, fixed fees, constrained budgets, and an eight-block horizon; transaction identifiers do not reveal user identities, and confirmation delay is not a welfare measure. Multi-node Mainnet observations and models with endogenous fee bidding are needed to determine when this redistribution occurs under production traffic and whether it has user-welfare consequences.
 
 \section*{Reproducibility}
-The locally retained artifact archive includes signed raw transactions, funding blocks, RPC captures, source and binary hashes, fixed configurations, both comparators, exact optimization, analysis code, and reproduction commands. A digest-pinned Python container checks offline numerical reconstruction. The archive has not been publicly deposited with this submission; the description records the materials used for the reported checks rather than promising reader access. This document release was frozen at \ReleaseTimestamp; that timestamp is an artifact identifier, not a Mainnet observation window. Experimental statements are tied to the archived execution and verification artifacts.
+\ifdefined\AnonymousBuild
+The code, manuscript source, compact result summaries, and integrity manifests are retained with the submission materials. The complete signed-transaction, funding-block, RPC-capture, extension-fixture, and v30.2-template archive remains locally retained and is not included in the public release.
+\else
+The public release provides the code, manuscript source, compact result summaries, and integrity manifests through the linked GitHub repository; the linked Hugging Face page currently serves as a data index. The complete signed-transaction, funding-block, RPC-capture, extension-fixture, and v30.2-template archive remains locally retained and is not included in this public release.
+\fi
+A digest-pinned Python container checks offline numerical reconstruction. This document release was frozen at \ReleaseTimestamp; that timestamp is an artifact identifier, not a Mainnet observation window. Experimental statements are tied to the archived execution and verification artifacts.
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
