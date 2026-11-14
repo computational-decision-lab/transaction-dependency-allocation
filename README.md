@@ -12,7 +12,7 @@ The experiments measure how transaction dependencies change the identities selec
 - `data/results/`: compact result summaries and verification artifacts.
 - Compact results and verification files are included here. Full signed transaction fixtures, captured RPC data, and v30.2 templates are not currently included in the public release.
 
-Code and paper source: [GitHub](https://github.com/computational-decision-lab/transaction-dependency-allocation). This compact release is also mirrored at [Hugging Face](https://huggingface.co/buckets/computational-decision-lab/transaction-dependency-allocation).
+Code, paper source, and compact results: [GitHub repository](https://github.com/computational-decision-lab/transaction-dependency-allocation). The [Hugging Face bucket](https://huggingface.co/buckets/computational-decision-lab/transaction-dependency-allocation) currently hosts a data index only; the complete raw artifact archive is not part of the public release.
 
 The experiments run on local Bitcoin Core Regtest nodes with synthetic fee assignments and a twelve-transaction cohort. They do not estimate Mainnet delays, miner behavior, or user welfare. Confirmation Gini is a dispersion statistic over transaction identifiers, not a measure of inequality among identified users.
 
