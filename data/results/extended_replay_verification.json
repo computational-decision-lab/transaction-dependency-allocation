@@ -1,0 +1,4691 @@
+{
+  "status": "passed",
+  "fixtures": 780,
+  "raw_transaction_acceptances": 9360,
+  "all_candidate_orders_match": true,
+  "blocks": 3122,
+  "binary_sha256": "dae69848ae9aaadcc3aa697d1c92b1283273a59c8d87b220b29ddc2813e25eb6",
+  "cases": [
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed000_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed000_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed000_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed000_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed001_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed001_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed001_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed001_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed002_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed002_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed002_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed002_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed003_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed003_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed003_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed003_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed004_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed004_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed004_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed004_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed005_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed005_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed005_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed005_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed006_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed006_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed006_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed006_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed007_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed007_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed007_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed007_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed008_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed008_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed008_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed008_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed009_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed009_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed009_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_simultaneous_seed009_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed000_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed000_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed000_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed000_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed001_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed001_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed001_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed001_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed002_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed002_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed002_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed002_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed003_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed003_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed003_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed003_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed004_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed004_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed004_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed004_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed005_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed005_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed005_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed005_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed006_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed006_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed006_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed006_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed007_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed007_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed007_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed007_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed008_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed008_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed008_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed008_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed009_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed009_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed009_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_children_late_seed009_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed000_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed000_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed000_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed000_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed001_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed001_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed001_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed001_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed002_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed002_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed002_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed002_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed003_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed003_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed003_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed003_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed004_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed004_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed004_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed004_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed005_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed005_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed005_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 4,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed005_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 4,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed006_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed006_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed006_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed006_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed007_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed007_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed007_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed007_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed008_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed008_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed008_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed008_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed009_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed009_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed009_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_equal_two_batches_seed009_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed000_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed000_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed000_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed000_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed001_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed001_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed001_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed001_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed002_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed002_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed002_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed002_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed003_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed003_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed003_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed003_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed004_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed004_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed004_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed004_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed005_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed005_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed005_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed005_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed006_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed006_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed006_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed006_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed007_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed007_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed007_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed007_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed008_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed008_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed008_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed008_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed009_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed009_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed009_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_simultaneous_seed009_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed000_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed000_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed000_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed000_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed001_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed001_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed001_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed001_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed002_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed002_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed002_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed002_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed003_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed003_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed003_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed003_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed004_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed004_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed004_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed004_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed005_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed005_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed005_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed005_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed006_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed006_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed006_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed006_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed007_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed007_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed007_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed007_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed008_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed008_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed008_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed008_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed009_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed009_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed009_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_children_late_seed009_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed000_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed000_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed000_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed000_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed001_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed001_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed001_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed001_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed002_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed002_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed002_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed002_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed003_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed003_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed003_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed003_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed004_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed004_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed004_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed004_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed005_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed005_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed005_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed005_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed006_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed006_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed006_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed006_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed007_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed007_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed007_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed007_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed008_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed008_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed008_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed008_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed009_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 7,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed009_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed009_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap4_heterogeneous_two_batches_seed009_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed000_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed000_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed000_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed000_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed001_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed001_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed001_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed001_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed002_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed002_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed002_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed002_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed003_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed003_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed003_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed003_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed004_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed004_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed004_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed004_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed005_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed005_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed005_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed005_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed006_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed006_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed006_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed006_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed007_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed007_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed007_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed007_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed008_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed008_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed008_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed008_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed009_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed009_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed009_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_simultaneous_seed009_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed000_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed000_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed000_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed000_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed001_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed001_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed001_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed001_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed002_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed002_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed002_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed002_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed003_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed003_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed003_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed003_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed004_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed004_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed004_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed004_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed005_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed005_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed005_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed005_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed006_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed006_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed006_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed006_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed007_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed007_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed007_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed007_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed008_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed008_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed008_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed008_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed009_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed009_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed009_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_children_late_seed009_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed000_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed000_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed000_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed000_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed001_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed001_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed001_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed001_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed002_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed002_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed002_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed002_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed003_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed003_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed003_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed003_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed004_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed004_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed004_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed004_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed005_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed005_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed005_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed005_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed006_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed006_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed006_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed006_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed007_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed007_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed007_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed007_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed008_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed008_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed008_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed008_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed009_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed009_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed009_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_equal_two_batches_seed009_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed000_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed000_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed000_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed000_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed001_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed001_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed001_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed001_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed002_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed002_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed002_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed002_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed003_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed003_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed003_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed003_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed004_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed004_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed004_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed004_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed005_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed005_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed005_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed005_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed006_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed006_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed006_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed006_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed007_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed007_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed007_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed007_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed008_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed008_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed008_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed008_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed009_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed009_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed009_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_simultaneous_seed009_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed000_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed000_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed000_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed000_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed001_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed001_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed001_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed001_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed002_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed002_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed002_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed002_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed003_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed003_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed003_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed003_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed004_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed004_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed004_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed004_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed005_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed005_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed005_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed005_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed006_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed006_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed006_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed006_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed007_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed007_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed007_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed007_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed008_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed008_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed008_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed008_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed009_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed009_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed009_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_children_late_seed009_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed000_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed000_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed000_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed000_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed001_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed001_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed001_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed001_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed002_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed002_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed002_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed002_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed003_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed003_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed003_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed003_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed004_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed004_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed004_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed004_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed005_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed005_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed005_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed005_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed006_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed006_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed006_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed006_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed007_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed007_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed007_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 9,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed007_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed008_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed008_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed008_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed008_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed009_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 5,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed009_cpfp.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed009_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "robustness_cap6_heterogeneous_two_batches_seed009_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 6,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed040_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed040_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed040_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed041_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed041_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed041_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed042_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed042_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed042_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed043_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed043_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed043_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed044_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed044_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed044_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed045_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed045_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed045_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed046_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed046_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed046_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed047_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed047_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed047_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed048_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed048_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed048_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed049_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed049_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed049_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed050_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed050_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed050_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed051_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed051_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed051_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed052_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed052_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed052_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed053_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed053_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed053_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed054_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed054_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed054_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed055_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed055_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed055_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed056_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed056_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed056_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed057_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed057_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed057_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed058_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed058_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed058_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed059_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed059_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed059_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed060_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed060_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed060_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed061_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed061_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed061_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed062_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed062_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed062_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed063_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed063_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed063_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed064_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed064_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed064_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed065_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed065_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed065_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed066_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed066_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed066_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed067_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed067_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed067_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed068_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed068_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed068_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed069_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed069_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed069_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed070_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed070_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed070_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed071_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed071_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed071_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed072_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed072_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed072_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed073_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed073_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed073_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed074_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed074_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed074_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed075_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed075_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed075_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed076_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed076_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed076_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed077_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed077_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed077_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed078_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed078_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed078_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed079_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed079_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed079_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed080_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed080_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed080_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed081_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed081_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed081_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed082_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed082_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed082_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed083_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed083_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed083_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed084_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed084_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed084_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed085_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed085_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed085_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed086_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed086_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed086_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed087_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed087_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed087_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed088_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed088_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed088_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed089_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed089_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed089_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed090_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed090_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed090_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed091_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed091_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed091_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed092_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed092_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed092_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed093_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed093_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed093_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed094_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed094_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed094_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed095_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed095_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed095_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed096_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed096_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed096_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed097_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed097_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed097_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 8,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed098_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed098_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed098_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed099_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed099_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap4_equal_simultaneous_seed099_star.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 3,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed040_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed040_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed041_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed041_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed042_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed042_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed043_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed043_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed044_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed044_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed045_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed045_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed046_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed046_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed047_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed047_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed048_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed048_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed049_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed049_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed050_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed050_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed051_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed051_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed052_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed052_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed053_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed053_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed054_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed054_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed055_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed055_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed056_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed056_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed057_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed057_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed058_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed058_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed059_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed059_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed060_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed060_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed061_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed061_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed062_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed062_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed063_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed063_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed064_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed064_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed065_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed065_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed066_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed066_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed067_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed067_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed068_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed068_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed069_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed069_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed070_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed070_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed071_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed071_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed072_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed072_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed073_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed073_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed074_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed074_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed075_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed075_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed076_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed076_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed077_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed077_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed078_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed078_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed079_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed079_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed080_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed080_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed081_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed081_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed082_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed082_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed083_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed083_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed084_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed084_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed085_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed085_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed086_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed086_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed087_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed087_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed088_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed088_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed089_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed089_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed090_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed090_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed091_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed091_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed092_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed092_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed093_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed093_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed094_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed094_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed095_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed095_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed096_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed096_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed097_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed097_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed098_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed098_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed099_independent.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    },
+    {
+      "fixture": "precision_cap6_equal_simultaneous_seed099_chain.json",
+      "all_candidate_orders_equal": true,
+      "blocks": 2,
+      "accepted_transactions": 12
+    }
+  ],
+  "scope": "Wallet-free raw-chain replay; official release versus source build; all extended Core trajectory blocks and declared arrivals"
+}

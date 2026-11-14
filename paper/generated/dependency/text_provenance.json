@@ -1,0 +1,14 @@
+{
+  "source": "results/dependency/regtest_20261103_n40/analysis/summary.json",
+  "macros": {
+    "ICBCFourChainDelay": "0.583",
+    "ICBCFourChainInterval": "[0.508, 0.658]",
+    "ICBCFourChainFee": "8,369.5",
+    "ICBCFourChainAncestorDelay": "-0.042",
+    "ICBCFourChainAncestorInterval": "[-0.079, -0.008]",
+    "ICBCFourChainAncestorFee": "-1,456.775",
+    "ICBCFaultCount": "8",
+    "ICBCReplayFixtures": "800"
+  },
+  "verification_fixtures": 800
+}

@@ -119,7 +119,7 @@ def audit_fixture(d):
 
 def main():
     ap=argparse.ArgumentParser(__doc__);ap.add_argument('directory',type=Path)
-    ap.add_argument('--baseline',type=Path,default=Path('results/dependency_study/regtest_20261103_n40'))
+    ap.add_argument('--baseline',type=Path,default=Path('results/dependency/regtest_20261103_n40'))
     ap.add_argument('--partial',action='store_true')
     args=ap.parse_args();output=args.directory/'analysis';output.mkdir(exist_ok=True)
     rows=[];matching={};files=sorted((args.directory/'fixtures').glob('*.json'));inventory={}

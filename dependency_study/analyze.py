@@ -20,7 +20,7 @@ def interval(values, seed=73103):
 def main():
     p = argparse.ArgumentParser(__doc__)
     p.add_argument("directory", type=Path)
-    p.add_argument("--figures", type=Path, default=Path("paper/generated/dependency_study"))
+    p.add_argument("--figures", type=Path, default=Path("paper/generated/dependency"))
     args = p.parse_args()
     source = args.directory / "analysis" / "recomputed.json"
     rows = json.loads(source.read_text())

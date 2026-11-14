@@ -10,7 +10,7 @@ from jsonschema import Draft7Validator
 def main():
     parser = argparse.ArgumentParser(__doc__)
     parser.add_argument("directory", type=Path)
-    parser.add_argument("--schema", type=Path, default=Path("schemas/dependency_study_fixture_v2.json"))
+    parser.add_argument("--schema", type=Path, default=Path("schemas/dependency_fixture_v2.json"))
     args = parser.parse_args()
     schema = json.loads(args.schema.read_text())
     Draft7Validator.check_schema(schema)

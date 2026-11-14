@@ -1,0 +1,52 @@
+{
+  "study": "Who Pays for the Parent? Transaction Dependency, Blockspace Allocation, and Confirmation Inequality in Bitcoin",
+  "status": "executed_verified_controlled_regtest",
+  "as_of": "2026-11-03",
+  "source_commit": "6574cb40869b96b9ffc79c19dc8f4e467d60f321",
+  "controlled_design": {
+    "fee_seeds": 40,
+    "topologies": 5,
+    "capacities": [
+      2,
+      4,
+      6,
+      12
+    ],
+    "fixtures": 800,
+    "selector_trajectories": 2400,
+    "transactions_per_fixture": 12,
+    "horizon_seconds": 4800
+  },
+  "claim_boundary": {
+    "regtest_paper": "Executed legal matched synthetic transactions; node-local policy comparisons and raw-artifact reconstruction",
+    "mainnet_extension": "Not collected; no Mainnet treatment or miner adoption result",
+    "welfare": "Not identified without external values of time and transaction purposes"
+  },
+  "acceptance_gate": {
+    "local_source_build": true,
+    "official_release_verified": true,
+    "legal_signed_transactions": true,
+    "exact_matching": true,
+    "independent_comparator_replay": true,
+    "raw_block_timestamp_and_outcome_reconstruction": true,
+    "solver_crosscheck": true,
+    "separate_rbf_cases": true,
+    "cluster_count_boundary": true,
+    "offline_container_reproduction": true,
+    "official_wallet_free_replay": true,
+    "mainnet_event_history": false
+  },
+  "verification": {
+    "local_audit": "regtest_20261103_n40/analysis/verification.json",
+    "schema": "regtest_20261103_n40/analysis/schema_verification.json",
+    "milp": "regtest_20261103_n40/analysis/solver_verification.json",
+    "container": "regtest_20261103_n40/analysis/container_verification.json",
+    "external_binary": "core_replay_20261103/verification.json",
+    "rbf": "rbf_20261103_v2/verification.json",
+    "count_boundary": "boundary_20261103/verification.json"
+  },
+  "remaining_submission_gate": null,
+  "public_release": "Local anonymous ZIP prepared; not published",
+  "supersedes": "design_only blueprint and six-transaction design contract",
+  "submission_policy": "Official guidelines retrieved; 8 pages excluding references, IEEE format, double blind; specific AI disclosure included"
+}
