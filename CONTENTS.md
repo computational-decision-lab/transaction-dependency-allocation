@@ -5,7 +5,8 @@
 | `paper/main.pdf` | Anonymous manuscript |
 | `paper/main.tex` | Paper source |
 | `paper/references.bib` | Bibliography |
-| `paper/generated/dependency_study/` | Frozen numeric results, tables, prose fragments, and figure |
+| `paper/generated/icbc_dependency/` | Frozen numeric results, tables, prose fragments, figures, and editable TikZ source |
+| `paper/assets/icbc_*.png` | Figure assets used by the research blog |
 | `dependency_study/` | Fixture generation, selector logic, Core replay, audit, and analysis |
 | `schemas/` | Fixture and replay artifact schemas |
 | `requirements.txt` | Pinned analysis environment |

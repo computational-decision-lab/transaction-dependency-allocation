@@ -6,8 +6,9 @@ The experiments measure how transaction dependencies change the identities selec
 
 ## Contents
 
-- `paper/main.pdf`: anonymous manuscript.
-- `paper/`: editable LaTeX source, bibliography, generated tables, and figure assets.
+- `paper/main.pdf`: public manuscript with release links.
+- `paper/main_anonymous.pdf`: link-free anonymous submission manuscript.
+- `paper/`: editable LaTeX source, bibliography, generated tables, figure assets, and the editable TikZ source for the confirmation-order diagram.
 - `dependency_study/`, `schemas/`: selectors, fixture generation, Core replay, independent reconstruction, analysis, and validation.
 - `data/results/`: compact result summaries and verification artifacts.
 - Compact results and verification files are included here. Full signed transaction fixtures, captured RPC data, and v30.2 templates are not currently included in the public release.
