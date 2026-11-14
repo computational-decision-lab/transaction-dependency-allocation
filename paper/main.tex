@@ -5,9 +5,9 @@
 \usepackage[hidelinks]{hyperref}
 \urlstyle{same}
 \input{publication_tables}
-\input{generated/dependency/numbers.tex}
-\input{generated/dependency/version_numbers.tex}
-\input{generated/dependency/extension_numbers.tex}
+\input{generated/icbc_dependency/numbers.tex}
+\input{generated/icbc_dependency/version_numbers.tex}
+\input{generated/icbc_dependency/extension_numbers.tex}
 \input{generated/release_stamp.tex}
 \title{Who Pays for the Parent?\\Transaction Dependency, Blockspace Allocation, and Confirmation-Delay Redistribution in Bitcoin}
 \ifdefined\AnonymousBuild
@@ -19,14 +19,14 @@
 \maketitle
 \pagestyle{plain}
 \begin{abstract}
-Which transactions wait when a high-fee child raises its parent's priority? Child Pays for Parent (CPFP) can lift a low-fee parent's effective selection priority, creating the possibility that unrelated transactions lose access to scarce blockspace. We measure this redistribution in valid, signed transaction graphs run through Bitcoin Core v31.0 on Regtest. In 800 matched fixtures (12 equal-weight simultaneous transactions, 40 fee seeds, five topologies, and four block-weight budgets), the four-slot chain shifts unrelated restricted waiting by +\ICBCFourChainDelay{} blocks (95\% interval \ICBCFourChainInterval{}) and first-block fees by +\ICBCFourChainFee{} sat relative to scalar selection. Relative to ancestor-package selection, the corresponding contrasts are \ICBCFourChainAncestorDelay{} blocks (95\% interval \ICBCFourChainAncestorInterval{}) and \ICBCFourChainAncestorFee{} sat. In the 100-seed extension, Core versus scalar increases unrelated waiting by \ICBCExtFourChainRU{} blocks (95\% interval \ICBCExtFourChainRUCI{}). Mean delay and Gini remain invariant in these equal-size, simultaneous comparisons, consistent with confirmation-count invariance. A v30.2 template replay selects the same initial set as v31.0 in \ICBCVersionMatchedSets{} of \ICBCReplayFixtures{} cases. An exploratory ten-seed heterogeneous-size diagnostic shifts the estimate to \ICBCDiagHeteroSimRU{} blocks (95\% interval \ICBCDiagHeteroSimRUCI{}), indicating sensitivity rather than a conclusive sign reversal. Independent reconstruction and official-binary replay audit the archived blocks. These single-node synthetic results concern transaction identifiers, not Mainnet delays, user identities, or welfare.
+Which transactions wait when a high-fee child accelerates its parent? Under Child Pays for Parent (CPFP), a high-fee child can raise a low-fee parent's effective selection priority, potentially displacing unrelated transactions from scarce blockspace. We measure this redistribution in valid, signed transaction graphs run through Bitcoin Core v31.0 on Regtest. Across 800 matched fixtures (12 equal-weight simultaneous transactions, 40 fee seeds, five topologies, and four block-weight budgets), the four-slot chain increases unrelated restricted waiting by +\ICBCFourChainDelay{} blocks (95\% interval \ICBCFourChainInterval{}) and first-block fees by +\ICBCFourChainFee{} sat relative to scalar selection, versus \ICBCFourChainAncestorDelay{} blocks (95\% interval \ICBCFourChainAncestorInterval{}) and \ICBCFourChainAncestorFee{} sat relative to ancestor-package selection. In the 100-seed extension, Core versus scalar increases unrelated waiting by \ICBCExtFourChainRU{} blocks (95\% interval \ICBCExtFourChainRUCI{}). Mean delay and Gini remain invariant in these equal-size, simultaneous comparisons, consistent with confirmation-count invariance. A v30.2 template replay selects the same initial set as v31.0 in \ICBCVersionMatchedSets{} of \ICBCReplayFixtures{} cases. An exploratory ten-seed heterogeneous-size diagnostic shifts the estimate to \ICBCDiagHeteroSimRU{} blocks (95\% interval \ICBCDiagHeteroSimRUCI{}), indicating sensitivity rather than a conclusive sign reversal. Independent reconstruction and official-binary replay audit the archived blocks. These single-node synthetic results concern transaction identifiers, not Mainnet delays, user identities, or welfare.
 \end{abstract}
 \begin{IEEEkeywords}
 Bitcoin, cluster mempool, CPFP, blockspace allocation, confirmation delay, reproducibility
 \end{IEEEkeywords}
 
 \section{Introduction}
-Under matched demand, two block-selection rules can report the same mean confirmation delay and Gini yet confirm different transactions first. CPFP can let a high-fee child raise its unconfirmed parent's effective selection priority, potentially pushing unrelated transactions into later blocks. When transactions arrive together and each selector confirms the same number per block, aggregate delay statistics cannot reveal this identity-level reshuffling. We study this distinction with valid signed transaction graphs in Bitcoin Core v31.0 on Regtest, measuring which transaction identities gain priority and which are displaced.
+Under matched demand, two block-selection rules can yield identical mean confirmation delay and Gini coefficients while confirming different transactions first. Under Child Pays for Parent (CPFP), a high-fee child can raise its unconfirmed parent's effective selection priority and displace unrelated transactions into later blocks. When equal-weight transactions arrive simultaneously and each selector confirms the same count per block, aggregate delay metrics mask this identity-level reordering. We study this distinction with valid signed transaction graphs in Bitcoin Core v31.0 on Regtest, measuring which transaction identities gain priority and which are displaced.
 
 The economic importance of transaction ordering is established. Fee-market models connect congestion and waiting with user bids and mining incentives~\cite{easley2019,huberman2021}; mechanism-design research studies which payment rules make those incentives compatible~\cite{roughgarden2024,stablefees2023}. Historical Bitcoin evidence also shows that client defaults and major intermediaries shape fee practices~\cite{moser2015}. Kamada and Noda~\cite{kamada2025} jointly model dynamic user bidding and miner operation. Queueing studies derive fee-dependent confirmation times~\cite{kasahara2019,kawase2020}, and a mempool risk-process model links waiting-time distributions to fee choice~\cite{gundlach2024}. These perspectives explain the incentives around blockspace. Reward-instability and mining-gap models allow fees to alter mining behavior~\cite{carlsten2016,tsabary2018}. Our experiment fixes bids and the block schedule to isolate the allocation step: given the same offered fees and transaction weights, which transaction identities obtain scarce space, and what can aggregate delay statistics reveal about that choice?
 
@@ -81,7 +81,7 @@ Equal weights and full utilization provide a transparent example. Consider four 
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=.82\textwidth]{generated/dependency/figures/confirmation_order_mechanism.pdf}
+\includegraphics[width=.82\textwidth]{generated/icbc_dependency/figures/icbc_confirmation_order_mechanism.pdf}
 \caption{Illustrative confirmation-order mechanism. The same four transactions are scheduled with two transaction slots per block. Scalar fee-rate ordering confirms the unrelated pair first, whereas package-aware ordering confirms the low-fee parent together with its high-fee child. Each selector confirms two transactions in each block, so the waiting-time multiset is identical even though the identities that wait change. This figure is an analytical illustration, not an additional experiment or a Mainnet estimate.}
 \label{fig:confirmation_order_mechanism}
 \end{figure*}
@@ -126,7 +126,7 @@ The repeated unit is the fee-assignment seed. We compute paired differences with
 Fresh wallets yield different raw identifiers. Regeneration targets identical label-level fees, sizes, and graphs, with corresponding allocation metrics; captured bytes permit replay of the exact realization. The run retains an initial source snapshot and a recorded orchestration correction that carries mock time across node restarts. Previously completed fixtures were preserved. No treatment configuration was selected or removed in response to an observed outcome.
 
 \section{Results: redistribution and capacity effects}
-\input{generated/dependency/results_prose.tex}
+\input{generated/icbc_dependency/results_prose.tex}
 
 \subsection{Actual prior-version templates and optimal-fee gaps}
 On the original 800 fixtures, v30.2 and v31.0 select identical first-block sets in \ICBCVersionMatchedSets{} cases and different sets in \ICBCVersionDifferentSets{}. In the four-unit chain, the v31.0-minus-v30.2 fee contrast is \ICBCVersionFourChainFee{} sat. Mean optimal-fee gaps are \ICBCVersionFourChainNewGap\% for v31.0 and \ICBCVersionFourChainOldGap\% for v30.2; in the four-unit star they are \ICBCVersionFourStarNewGap\% and \ICBCVersionFourStarOldGap\%. At six units, the star instead favors v31.0 by \ICBCVersionSixStarFee{} sat. These are initial-template results under synthetic budgets, not v30 delay estimates or an isolated causal effect of cluster mempool.
@@ -138,7 +138,7 @@ On the original 800 fixtures, v30.2 and v31.0 select identical first-block sets 
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}r l r c c c c@{}}
 \toprule
 Budget & Graph & $n$ & {$\Delta R_U$ (blocks)} & {$\Delta F$ (sat)} & {$\Delta G$} & {$\Delta$ gap (pp)}\\\midrule
-\input{generated/dependency/precision_table.tex}
+\input{generated/icbc_dependency/precision_table.tex}
 \end{tabular*}
 \tablenote{Paired seed-level means and percentile bootstrap intervals; $F$ is first-block fee capture and gap is relative to the exact feasible fee optimum. Five targeted cells combine the original 40 seeds and 60 new seeds. Bootstrap draws are not additional experiments.}
 \end{table*}
@@ -148,14 +148,14 @@ In the 100-seed four-slot chain, unrelated waiting rises by \ICBCExtFourChainRU{
 Ten-seed size/arrival diagnostics show why the original contrast is conditional. In the four-slot chain, Core-minus-scalar unrelated burden changes from \ICBCDiagEqualSimRU{} blocks with equal sizes and simultaneous arrivals to \ICBCDiagHeteroSimRU{} (interval \ICBCDiagHeteroSimRUCI{}) with heterogeneous sizes; the full-cohort Gini contrast becomes \ICBCDiagHeteroSimGini{}. Under two-batch arrivals, the corresponding unrelated contrasts are \ICBCDiagEqualBatchRU{} and \ICBCDiagHeteroBatchRU{} blocks, with Gini contrasts \ICBCDiagEqualBatchGini{} and \ICBCDiagHeteroBatchGini{}. These exploratory cells are small, and their estimates vary jointly with transaction weight, fee rate, and each transaction's age at observation. They delimit the equal-size simultaneous result rather than establish a general effect.
 
 \begin{figure*}[t]
-\centering\includegraphics[width=.96\textwidth]{generated/dependency/allocation_tradeoffs.pdf}
+\centering\includegraphics[width=.96\textwidth]{generated/icbc_dependency/allocation_tradeoffs.pdf}
 \caption{Core minus scalar contrasts in the original matrix, averaged over forty paired fee assignments. Time differences are in scheduled blocks. A positive delay contrast means later confirmation for the fixed unrelated cohort. Fee capture is selected fees divided by the exact feasible optimum; it and Gini are dimensionless. First-block utilization is identical in every original cell (Table~\ref{tab:contrasts}). The two-slot column and oversized four-slot star chunks are capacity stress tests; the twelve-slot column is a no-congestion control.}
 \label{fig:tradeoffs}
 \end{figure*}
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=.82\textwidth]{generated/dependency/figures/comparator_effects.pdf}
+\includegraphics[width=.82\textwidth]{generated/icbc_dependency/figures/icbc_comparator_effects.pdf}
 \caption{Comparator sensitivity and precision check. Positive values mean that Core assigns more unrelated restricted waiting. The left panel compares Core minus scalar with Core minus ancestor-package for the reported four-slot chain; the right panel compares the original 40-seed scalar contrast with the targeted 100-seed extension. Error bars are reported 95\% paired-bootstrap intervals. No unreported ancestor-package cells are inferred.}
 \label{fig:comparator_effects}
 \end{figure*}
@@ -168,7 +168,7 @@ Ten-seed size/arrival diagnostics show why the original contrast is conditional.
 \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}r l S[table-format=1.3] c S[table-format=1.3] S[table-format=1.3]@{}}
 \toprule
 Slots & Graph & {$\Delta R_U$} & 95\% CI & {$\Delta U$} & {$\Delta G$}\\\midrule
-\tablerows{generated/dependency/contrast_table.tex}
+\tablerows{generated/icbc_dependency/contrast_table.tex}
 \end{tabular*}
 \tablenote{$\Delta R_U$: unrelated restricted delay (blocks); $\Delta U$: first-block utilization; $\Delta G$: full-cohort restricted-burden Gini. Positive differences denote increases under Core. CIs use a paired bootstrap over 40 fee seeds. Two-slot and oversized-chunk four-slot star cases are capacity stress tests.}
 \end{table}
@@ -206,7 +206,7 @@ The 64-transaction connected fixture is admitted. In the attempted 65-transactio
 
 The standalone parser imports no Core or generator code. It computes transaction and witness identifiers from raw bytes, derives fees from funding prevouts, calculates weights, extracts graph edges, identifies connected components, aggregates cluster and chunk totals, and verifies fee-rate-diagram concavity. It parses saved blocks, verifies transaction Merkle roots and scheduled timestamps, and reconstructs selected sets and terminal events. A second selector implementation uses fixed-point ancestor closure rather than the generator's recursive package construction. Exhaustive feasible-fee optima are cross-checked with a separate binary mixed-integer linear program solver. Direct event fractions, arithmetic means, and pairwise-distance Gini values cross-check the outcome estimator. Eight deliberate corruptions are rejected: altered fee, truncated transaction, changed signature witness, altered chunk weight, altered delay, duplicate terminal event, early censoring passed to a complete-cohort Gini calculation, and a damaged Merkle root. A closed-form three-outcome example checks competing-risk accounting independently of the selection experiment.
 
-\input{generated/dependency/verification_prose.tex}
+\input{generated/icbc_dependency/verification_prose.tex}
 
 \section{Related work, interpretation and limits}
 The contribution lies between fee-market economics and transaction-graph algorithms. Models of fees and congestion explain the incentives surrounding confirmation~\cite{easley2019,huberman2021,kamada2025}; fee-mechanism design evaluates payment rules and strategic behavior~\cite{roughgarden2024,stablefees2023}. Client-policy evidence shows why concrete implementation choices also matter~\cite{moser2015}. Holding bids and block times fixed lets the present design isolate an allocation mechanism, without inferring equilibrium responses from a change in priority. The comparison with linearization research~\cite{linearization2026} is equally specific: an algorithm's fee-rate ordering does not, by itself, characterize which unrelated transactions wait or whether the cohort's delay dispersion changes. Matched signed graphs, explicit comparators, and confirmation-count invariance make those downstream outcomes separately testable.
@@ -217,7 +217,7 @@ Independent replay establishes agreement with the specified binaries on captured
 
 \balance
 \section{Conclusion}
-Dependency-aware selection redistributes confirmation priority, but its direction depends on the comparator and on transaction size and arrival conditions; aggregate mean delay and Gini can remain unchanged while transaction identities are reordered. This evidence comes from single-node Regtest runs with twelve synthetic transactions, fixed fees, constrained budgets, and an eight-block horizon; transaction identifiers do not reveal user identities, and confirmation delay is not a welfare measure. Multi-node Mainnet observations and models with endogenous fee bidding are needed to determine when this redistribution occurs under production traffic and whether it has user-welfare consequences.
+Dependency-aware selection reorders transaction confirmations without necessarily altering aggregate mean delay or Gini, and the direction of this redistribution depends on the benchmark selector, transaction sizes, and arrival conditions. This evidence comes from single-node Regtest runs with twelve synthetic transactions, fixed fees, constrained budgets, and an eight-block horizon; transaction identifiers do not reveal user identities, and confirmation delay is not a welfare measure. Multi-node Mainnet observations and models with endogenous fee bidding are needed to determine when this redistribution occurs under production traffic and whether it has user-welfare consequences.
 
 \section*{Reproducibility}
 The locally retained artifact archive includes signed raw transactions, funding blocks, RPC captures, source and binary hashes, fixed configurations, both comparators, exact optimization, analysis code, and reproduction commands. A digest-pinned Python container checks offline numerical reconstruction. The archive has not been publicly deposited with this submission; the description records the materials used for the reported checks rather than promising reader access. This document release was frozen at \ReleaseTimestamp; that timestamp is an artifact identifier, not a Mainnet observation window. Experimental statements are tied to the archived execution and verification artifacts.
